@@ -20,4 +20,6 @@ However, although it is not our intention, we are aware that this analysis can b
 
 Finally, we cannot stress enough that this project is in the scope of a data analysis course and is thus for **academic purposes**. Any potentially harmful result should be investigated significantly more closely and thoroughly in order to draw a meaningful conclusion.
 
+---
+
 Now, without further ado, let’s dive straight in by exploring the next page !
