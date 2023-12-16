@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: diversity
 ---
 
 # ADA Template Website
