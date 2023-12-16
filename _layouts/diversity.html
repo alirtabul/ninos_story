@@ -13,6 +13,12 @@
     {% include head-custom.html %}
 
     <style>
+        body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        }
 
         .page-header {
           background-image: url('assets/img/star_wars_2.png'); /* Replace 'path/to/your/image.png' with the actual path to your PNG image */
@@ -21,7 +27,10 @@
           color: #fff; /* Set text color to contrast with the image */
           padding: 20px; /* Adjust as needed: Adds some padding around the header content */
           height: 270px;
-          text-align: center center;
+          display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         }
         .page-buttons {
           text-align: center;
@@ -42,6 +51,14 @@
         .page-buttons .btn:hover {
           background-color: #2980b9; /* Hover background color */
         }
+
+        main {
+        flex: 1;
+      }
+
+      .site-footer {
+        margin-top: auto;
+      }
       </style>
 
   </head>
