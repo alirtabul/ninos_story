@@ -23,6 +23,8 @@ Our study is purely based on our curiosity to see whether having a diverse cast 
 
 However, although it is not our intention, we are aware that this analysis can be viewed as an ethical risk. For instance, we could end up with conclusions that may harm certain populations. Because of this, we have implemented a solution to arbitrarily group ethnicities into larger ethnic groups. This way, we cannot infer any conclusions about a specific population since they would be part of a much larger group.
 
+![Grouping is an important step to make things simpler](assets/img/grouping_HP.gif)
+
 Finally, we cannot stress enough that this project is in the scope of a data analysis course and is thus for **academic purposes**. Any potentially harmful result should be investigated significantly more closely and thoroughly in order to draw a meaningful conclusion.
 
 ---
