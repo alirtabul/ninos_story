@@ -1,5 +1,5 @@
 ---
-layout: cayman
+layout: full
 ---
 
 # ADA Template Website
