@@ -16,20 +16,10 @@
         background-image: url('assets/img/star_wars.jpg');
         background-size: cover;
         background-position: center 20%;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.1);
         color: #fff;
         padding: 20px;
         position: relative; /* Needed for absolute positioning of the yellow square */
-      }
-
-      .yellow-square {
-        background-color: #f1c40f; /* Yellow background color */
-        height: 50px; /* Adjust the height as needed */
-        width: 600px; /* Full width */
-        position: absolute;
-        top: 80px; /* Adjust the top position as needed */
-        left: 15%; /* Center the element */
-        z-index: 1; /* Ensure it appears above the background image */
       }
 
       .page-buttons {
@@ -58,7 +48,6 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <div class="yellow-square"></div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
