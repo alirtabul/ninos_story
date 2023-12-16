@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
 
+    <!-- Your existing head content here -->
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,11 +15,11 @@
 
     <style>
       body {
-              margin: 0;
-              display: flex;
-              flex-direction: column;
-              min-height: 100vh;
-            }
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
 
       .page-header {
         background-image: url('assets/img/star_wars_2.png');
@@ -29,31 +31,37 @@
         position: relative;
         height: 270px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column; /* Change from 'row' to 'column' */
         justify-content: center;
         align-items: center;
       }
 
+      .project-name,
+      .project-tagline {
+        margin: 10px 0;
+        text-align: center; /* Center text in the column */
+      }
+
       .page-buttons {
         text-align: center;
-        margin-top: 20px; /* Adjust the top margin as needed */
+        margin-top: 20px;
       }
 
       .page-buttons .btn {
         display: inline-block;
-        margin: 0 10px; /* Adjust the horizontal margin as needed */
+        margin: 0 10px;
         padding: 10px 20px;
         text-decoration: none;
-        color: #ffffff; /* Text color */
-        background-color: #3498db; /* Background color */
+        color: #ffffff;
+        background-color: #3498db;
         border-radius: 5px;
         transition: background-color 0.3s ease;
       }
 
       .page-buttons .btn:hover {
-        background-color: #2980b9; /* Hover background color */
+        background-color: #2980b9;
       }
-      
+
       main {
         flex: 1;
       }
@@ -70,13 +78,6 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
