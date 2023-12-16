@@ -13,40 +13,51 @@
 
     <style>
       .page-header {
-        background-image: url('assets/img/star_wars.jpg'); /* Replace 'path/to/your/image.png' with the actual path to your PNG image */
-        background-size: cover; /* Adjust as needed: 'cover' will make sure the image covers the entire header */
-        background-position: center center; /* Adjust as needed: 'center center' will center the image */
-        color: #fff; /* Set text color to contrast with the image */
-        padding: 20px; /* Adjust as needed: Adds some padding around the header content */
+        background-image: url('assets/img/Movie_portrays.jpg');
+        background-size: cover;
+        background-position: center 30%;
+        color: #fff;
+        padding: 20px;
+        position: relative; /* Needed for absolute positioning of the yellow square */
       }
 
-    <style>
-        .page-buttons {
-          text-align: center;
-          margin-top: 20px; /* Adjust the top margin as needed */
-        }
-  
-        .page-buttons .btn {
-          display: inline-block;
-          margin: 0 10px; /* Adjust the horizontal margin as needed */
-          padding: 10px 20px;
-          text-decoration: none;
-          color: #ffffff; /* Text color */
-          background-color: #3498db; /* Background color */
-          border-radius: 5px;
-          transition: background-color 0.3s ease;
-        }
-  
-        .page-buttons .btn:hover {
-          background-color: #2980b9; /* Hover background color */
-        }
-      </style>
+      .yellow-square {
+        background-color: #f1c40f; /* Yellow background color */
+        height: 50px; /* Adjust the height as needed */
+        width: 100%; /* Full width */
+        position: absolute;
+        top: 80px; /* Adjust the top position as needed */
+        left: 0;
+        z-index: 1; /* Ensure it appears above the background image */
+      }
+
+      .page-buttons {
+        text-align: center;
+        margin-top: 20px; /* Adjust the top margin as needed */
+      }
+
+      .page-buttons .btn {
+        display: inline-block;
+        margin: 0 10px; /* Adjust the horizontal margin as needed */
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #ffffff; /* Text color */
+        background-color: #3498db; /* Background color */
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .page-buttons .btn:hover {
+        background-color: #2980b9; /* Hover background color */
+      }
+    </style>
 
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+      <div class="yellow-square"></div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
