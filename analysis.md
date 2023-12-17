@@ -2,10 +2,13 @@
 layout: analysis
 ---
 
-# ADA Template Website
-## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
+# Correlation Analysis
+## Concept
+In this part of our project, we look at the correlations between the box office revenue of the movies and other factors.
+
+### Number of ethnic groups present in the movie
+First, since our analysis is about diversity, we will look at the influence of the number of ethnic groups present. Does it appear beneficial to have multiple ethnic groups?
+
 3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
 4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
 **Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
