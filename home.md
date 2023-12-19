@@ -16,11 +16,6 @@ This study is supported by the CMU Movie Database as well as the MovieLens Datas
 
 Our study is purely based on our curiosity to see whether having a diverse cast improves the overall movie experience for users; does it give the audience a more exciting and engaging experience?
 
-<div style="text-align: center; margin: 0 auto;">
-  <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/test_plot.html" width="700" height="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
-</div>
-
 However, although it is not our intention, we are aware that this analysis can be viewed as an ethical risk. For instance, we could end up with conclusions that may harm certain populations. Because of this, we have implemented a solution to arbitrarily group ethnicities into larger ethnic groups. This way, we cannot infer any conclusions about a specific population since they would be part of a much larger group.
 
 <div style="text-align: center;">
