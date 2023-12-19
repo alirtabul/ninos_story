@@ -12,12 +12,12 @@ As such, the ethnicities were manually grouped according to the [UK's list of et
 - Asian, Middle East and Tribes
 - Mixed or multiple ethnic groups
 
+By looking at the proportion of ethnic groups below, we can see that the ethnic groups “White” and “Asian, Middle East and Tribes” account for roughly two thirds of the population:
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
   <iframe src="assets/plots/ethnic_group_counts.html" width="700" height="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-Throughout the dataset, the ethnic groups “White” and “Asian, Middle East and Tribes” account for roughly 2/3 of the population.
 
 
 
