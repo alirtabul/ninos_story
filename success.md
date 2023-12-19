@@ -46,7 +46,7 @@ Both models presented similar Shapley distributions. Subsequently, you can see t
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/shap_summary_plot.html" width= 600 height=300 frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/shap_summary_plot.html" width= 800 height=400 frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 The top influencers are: 
