@@ -150,7 +150,7 @@ You can try them as well below (This feature still is under revision as we are e
     <!-- Include the scikit-learn and joblib CDN -->
     <script src="https://cdn.jsdelivr.net/npm/scikit-learn@0.24.2/dist/scikit-learn.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/joblib@0.16.0/dist/joblib.js"></script>
-</head>
+
 <body>
     <h1>Revenue Predictor</h1>
     <label for="budget">Budget:</label>
@@ -211,7 +211,7 @@ You can try them as well below (This feature still is under revision as we are e
         }
     </script>
 </body>
-</html>
+
 
 
 
