@@ -7,7 +7,7 @@ layout: success
 
 # Decoding Movie Success
 
-Welcome to the Success Score Page, where we unravel the secrets behind what makes a movie successful. Grab some popcorn and get ready to dive into the fascinating world of movie analytics!
+Welcome to the Success Score Page, where we unravel the secrets behind what makes a movie successful.
 
 ## Understanding the Success Score
 
@@ -36,9 +36,17 @@ $$ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \te
 - **Box Office Revenue - Budget:** The difference signifies the financial success of a movie, reflecting how much it earned beyond its production costs.
 - **Vote Average:** This factor represents audience approval, a crucial aspect in determining a movie's overall success.
 
+Below you can find the evolution of this success score over time. As it is possible to see, the score has fluctuations over the years, but on average there is no notable increase. 
+
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/Success_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/Success_over_time.html" width="700" height="900" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
+The movies with the highest success are the following:
+<div style="text-align: center; margin: 0 auto;">
+  <!-- Replace the following line with your actual graph code -->
+  <iframe src="assets/plots/Most_successful_movies.png" width="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 ## Unveiling the Machine Learning Model
