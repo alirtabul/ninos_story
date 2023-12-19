@@ -29,7 +29,7 @@ Below you can find the evolution of this success score over time. As it is possi
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/Success_over_time.html" width="700" height="900" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/Success_over_time.html" width="800" height="900" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 The movies with the highest success are the following:
@@ -40,7 +40,11 @@ The movies with the highest success are the following:
 
 ## Unveiling the Machine Learning Models
 
-Once the ML models have been trained and evaluated we can see the influence that their features had thanks to the Shapley values. Shapley values, in the context of our cinematic analysis, serve as illuminating metrics to discern the individual impact of each feature on predicting a movie's success. Imagine a collaborative project where each member's contribution is recognized and valued. Similarly, Shapley values assign credit to each feature, considering its unique role in shaping the overall prediction. By calculating Shapley values, we gain insights into the relative importance of factors like budget, movie runtime, genre, release year, and ethnic diversity, understanding how each contributes to the cinematic triumph. It's akin to acknowledging the distinct notes in a harmonious symphony, where each feature plays a crucial part in composing the narrative of a successful film.
+Once the ML models have been trained and evaluated we can see the influence that their features had thanks to the Shapley values. 
+
+Shapley values, in the context of our cinematic analysis, serve as illuminating metrics to discern the individual impact of each feature on predicting a movie's success. Imagine a collaborative project where each member's contribution is recognized and valued. Similarly, Shapley values assign credit to each feature, considering its unique role in shaping the overall prediction. 
+
+By calculating Shapley values, we gain insights into the relative importance of factors like budget, movie runtime, genre, release year, and ethnic diversity, understanding how each contributes to the cinematic triumph. It's akin to acknowledging the distinct notes in a harmonious symphony, where each feature plays a crucial part in composing the narrative of a successful film.
 
 Both models presented similar Shapley distributions. Subsequently, you can see the results for the Box Office Revenue ML predictor:
 
