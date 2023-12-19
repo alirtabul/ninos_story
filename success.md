@@ -60,6 +60,79 @@ Surprisingly, our research indicates that diversity factors, such as Ethnic and 
 
 In a nutshell, the formula for a successful movie is a blend of financial prowess, audience approval, and a well-thought-out combination of practical features. So, filmmakers, take note of these insights as you embark on your cinematic journey! 🎬✨
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Regression Predictor</title>
+    <!-- Include the scikit-learn and joblib CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/scikit-learn@0.24.2/dist/scikit-learn.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/joblib@0.16.0/dist/joblib.js"></script>
+</head>
+<body>
+    <h1>Linear Regression Predictor</h1>
+    <label for="budget">Budget:</label>
+    <input type="number" id="budget" step="any" required>
+    <br>
+    <label for="releaseYear">Movie release year:</label>
+    <input type="number" id="releaseYear" step="any" required>
+    <br>
+    <label for="ethnicScore">Ethnic Diversity Score:</label>
+    <input type="number" id="ethnicScore" step="any" required>
+    <br>
+    <label for="genderScore">Gender Diversity Score:</label>
+    <input type="number" id="genderScore" step="any" required>
+    <br>
+    <label for="adventure">Adventure:</label>
+    <input type="number" id="adventure" step="any" required>
+    <br>
+    <label for="englishLanguage">English language:</label>
+    <input type="number" id="englishLanguage" step="any" required>
+    <br>
+    <label for="runtime">Movie runtime:</label>
+    <input type="number" id="runtime" step="any" required>
+    <br>
+    <label for="indie">Indie:</label>
+    <input type="number" id="indie" step="any" required>
+    <br>
+    <label for="worldCinema">World cinema:</label>
+    <input type="number" id="worldCinema" step="any" required>
+    <br>
+    <label for="action">Action:</label>
+    <input type="number" id="action" step="any" required>
+    <br>
+    <label for="drama">Drama:</label>
+    <input type="number" id="drama" step="any" required>
+    <br>
+    <button onclick="predict()">Predict</button>
+    <p id="result"></p>
+    <script>
+        function predict() {
+            // Get input values
+            var budget = parseFloat(document.getElementById('budget').value);
+            var releaseYear = parseFloat(document.getElementById('releaseYear').value);
+            var ethnicScore = parseFloat(document.getElementById('ethnicScore').value);
+            var genderScore = parseFloat(document.getElementById('genderScore').value);
+            var adventure = parseFloat(document.getElementById('adventure').value);
+            var englishLanguage = parseFloat(document.getElementById('englishLanguage').value);
+            var runtime = parseFloat(document.getElementById('runtime').value);
+            var indie = parseFloat(document.getElementById('indie').value);
+            var worldCinema = parseFloat(document.getElementById('worldCinema').value);
+            var action = parseFloat(document.getElementById('action').value);
+            var drama = parseFloat(document.getElementById('drama').value);
+            // Load your trained linear regression model
+            var model = joblib.load('assets/plots/linear_regression_model.jolib');
+            // Make prediction
+            var prediction = model.predict([[budget, releaseYear, ethnicScore, genderScore, adventure, englishLanguage, runtime, indie, worldCinema, action, drama]]);
+            // Display the result
+            document.getElementById('result').innerHTML = 'Prediction: ' + prediction[0];
+        }
+    </script>
+</body>
+</html>
+
+
 [Continue Exploring](./another-page.html)
 
 
