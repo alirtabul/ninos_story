@@ -7,23 +7,16 @@ layout: success
 
 # Decoding Movie Success
 
-Welcome to the Success Score Page, where we unravel the secrets behind what makes a movie successful.
+Welcome to the Success Score Page, where we unravel the secrets behind what makes a movie successful. In our pursuit of understanding cinematic intricacies, we have developed two Machine-Learning models:
+
+1. **Success Score Predictor:** This model endeavors to predict a tailored Success Score, a metric designed to encapsulate the holistic success of a movie.
+2. **Revenue Predictor:** Our second model focuses on forecasting Box Office Revenue, a critical determinant of a movie's financial trajectory.
+
+Bear in mind that the idea is to see if features related to ethnicity, have an impact on the predictions made by the models.  
 
 ## Understanding the Success Score
 
-Ever wondered what factors contribute to a movie's success? We've got you covered! Our team has meticulously evaluated various features to create a Success Score that gauges the impact of elements such as:
-
-- **Box Office Revenue**
-- **Movie Release Year**
-- **Ethnic Diversity Score**
-- **Gender Diversity Score**
-- **Adventure**
-- **English Language**
-- **Movie Runtime**
-- **Indie**
-- **World Cinema**
-- **Action**
-- **Drama**
+Have you ever wondered what factors contribute to a movie's success? We've got you covered! Our team has evaluated various features to create a Success Score that gauges how 
 
 ### The Perfect Formula
 
@@ -51,7 +44,7 @@ The movies with the highest success are the following:
 
 ## Unveiling the Machine Learning Model
 
-Curious about predicting a movie's revenue? We've developed a cutting-edge machine learning model that relies on key features. The top influencers are:
+Curious about predicting a movie's revenue? We've developed a Machine Learning model that relies on key features. The top influencers are:
 
 1. **Budget:** The financial backbone of a movie.
 2. **Movie Runtime:** Impactful in capturing audience attention.
@@ -60,7 +53,7 @@ Curious about predicting a movie's revenue? We've developed a cutting-edge machi
 
 ### Conclusion: Practicality Prevails
 
-In all our analyses, a clear pattern emerges—practical features play a paramount role in determining a movie's box office success. The budget, movie runtime, release year, and genre, especially drama, weigh heavily in the equation.
+In all our analyses, a clear pattern emerges—practical features play an important role in determining a movie's box office success. The budget, movie runtime, release year, and genre, especially drama, weigh heavily in the equation.
 
 ## The Diversity Factor
 
