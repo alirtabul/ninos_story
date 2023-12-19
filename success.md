@@ -2,134 +2,56 @@
 layout: success
 ---
 
-# ADA Template Website
-## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
-3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
-4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
-**Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
-5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
-7. This line is a test to see if the web site is updating
+# Decoding Movie Success
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Welcome to the Success Score Page, where we unravel the secrets behind what makes a movie successful. Grab some popcorn and get ready to dive into the fascinating world of movie analytics!
 
-[Link to another page](./another-page.html).
+## Understanding the Success Score
 
-There should be whitespace between paragraphs.
+Ever wondered what factors contribute to a movie's success? We've got you covered! Our team has meticulously evaluated various features to create a Success Score that gauges the impact of elements such as:
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+- **Box Office Revenue**
+- **Movie Release Year**
+- **Ethnic Diversity Score**
+- **Gender Diversity Score**
+- **Adventure**
+- **English Language**
+- **Movie Runtime**
+- **Indie**
+- **World Cinema**
+- **Action**
+- **Drama**
 
-# Header 1
+### The Perfect Formula
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+To quantify success, we've devised a formula that takes into account essential features:
 
-## Header 2
+\[ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \text{Vote Average} \]
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+#### Justification:
 
-### Header 3
+- **Box Office Revenue - Budget:** The difference signifies the financial success of a movie, reflecting how much it earned beyond its production costs.
+- **Vote Average:** This factor represents audience approval, a crucial aspect in determining a movie's overall success.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Unveiling the Machine Learning Model
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+Curious about predicting a movie's revenue? We've developed a cutting-edge machine learning model that relies on key features. The top influencers are:
 
-#### Header 4
+1. **Budget:** The financial backbone of a movie.
+2. **Movie Runtime:** Impactful in capturing audience attention.
+3. **Movie Release Year:** Reflects the influence of time on a movie's success.
+4. **Gender Diversity Score and Ethnic Diversity Score:** As significant as the 'Drama' category.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+### Conclusion: Practicality Prevails
 
-##### Header 5
+In all our analyses, a clear pattern emerges—practical features play a paramount role in determining a movie's box office success. The budget, movie runtime, release year, and genre, especially drama, weigh heavily in the equation.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+## The Diversity Factor
 
-###### Header 6
+Surprisingly, our research indicates that diversity factors, such as Ethnic and Gender Diversity Scores, don't emerge as primary influencers. While they hold importance, their impact is comparable to that of the Drama genre.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+In a nutshell, the formula for a successful movie is a blend of financial prowess, audience approval, and a well-thought-out combination of practical features. So, filmmakers, take note of these insights as you embark on your cinematic journey! 🎬✨
 
-### There's a horizontal rule below this.
+[Continue Exploring](./another-page.html)
 
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
 
