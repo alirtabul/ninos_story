@@ -107,10 +107,16 @@ In a nutshell, the formula for a successful movie is a blend of financial prowes
     <button onclick="predict()">Predict</button>
     <p id="result"></p>
     <script>
-    function predict() {
-        // Display a simple message
-        document.getElementById('result').innerHTML = 'Hello!';
-    }
+        function predict() {
+            // Get input values
+            var budget = parseFloat(document.getElementById('budget').value);
+            var releaseYear = parseFloat(document.getElementById('releaseYear').value);
+            // Perform your logic here
+            // For now, let's display a message with the input values
+            var message = 'Predicting with Budget: ' + budget + ', Release Year: ' + releaseYear;
+            // Display the result message
+            document.getElementById('result').innerHTML = message;
+        }
     </script>
   
     <script>
