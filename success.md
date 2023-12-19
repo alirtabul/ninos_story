@@ -36,6 +36,11 @@ $$ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \te
 - **Box Office Revenue - Budget:** The difference signifies the financial success of a movie, reflecting how much it earned beyond its production costs.
 - **Vote Average:** This factor represents audience approval, a crucial aspect in determining a movie's overall success.
 
+<div style="text-align: center; margin: 0 auto;">
+  <!-- Replace the following line with your actual graph code -->
+  <iframe src="assets/plots/Sucess_over_time.html" width="700" height="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
 ## Unveiling the Machine Learning Model
 
 Curious about predicting a movie's revenue? We've developed a cutting-edge machine learning model that relies on key features. The top influencers are:
