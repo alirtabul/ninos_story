@@ -1,6 +1,9 @@
 ---
 layout: success
 ---
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 # Decoding Movie Success
 
@@ -26,7 +29,7 @@ Ever wondered what factors contribute to a movie's success? We've got you covere
 
 To quantify success, we've devised a formula that takes into account essential features:
 
-\[ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \text{Vote Average} \]
+$$ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \text{Vote Average} $$
 
 #### Justification:
 
