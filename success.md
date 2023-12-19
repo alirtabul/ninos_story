@@ -77,7 +77,7 @@ You can try them as well below (This feature still is under revision as we are e
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linear Regression Predictor</title>
+    <title>Success Score Predictor</title>
     <!-- Include the scikit-learn and joblib CDN -->
     <script src="https://cdn.jsdelivr.net/npm/scikit-learn@0.24.2/dist/scikit-learn.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/joblib@0.16.0/dist/joblib.js"></script>
@@ -153,7 +153,7 @@ You can try them as well below (This feature still is under revision as we are e
     <script src="https://cdn.jsdelivr.net/npm/joblib@0.16.0/dist/joblib.js"></script>
 </head>
 <body>
-    <h1>Linear Regression Predictor</h1>
+    <h1>Revenue Predictor</h1>
     <label for="budget">Budget:</label>
     <input type="number" id="budget" step="any" required>
     <br>
