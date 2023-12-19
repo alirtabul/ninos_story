@@ -16,11 +16,7 @@ Bear in mind that the idea is to see if features related to ethnicity, have an i
 
 ## Understanding the Success Score
 
-Have you ever wondered what factors contribute to a movie's success? We've got you covered! Our team has evaluated various features to create a Success Score that gauges how 
-
-### The Perfect Formula
-
-To quantify success, we've devised a formula that takes into account essential features:
+Have you ever wondered what factors contribute to a movie's success? We've got you covered! Our team has evaluated various features to create a Success Score until reaching the **Perfect Formula**. This formula takes into account essential features in the following manner:
 
 $$ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \text{Vote Average} $$
 
@@ -38,8 +34,7 @@ Below you can find the evolution of this success score over time. As it is possi
 
 The movies with the highest success are the following:
 <div style="text-align: center; margin: 0 auto;">
-  <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/Most_successful_movies.png" width="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/Most_successful_movies.png" style="width: 100%; height: 100%; border: none; display: block; margin: 0 auto;"></iframe>
 </div>
 
 ## Unveiling the Machine Learning Model
