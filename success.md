@@ -41,6 +41,11 @@ $$ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \te
   <iframe src="assets/plots/Sucess_over_time.html" width="700" height="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
+<div style="text-align: center; margin: 0 auto;">
+  <!-- Replace the following line with your actual graph code -->
+  <iframe src="assets/plots/Success_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
 ## Unveiling the Machine Learning Model
 
 Curious about predicting a movie's revenue? We've developed a cutting-edge machine learning model that relies on key features. The top influencers are:
