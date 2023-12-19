@@ -142,7 +142,6 @@ You can try them as well below (This feature still is under revision as we are e
         }
 
 
-      
 <html lang="en">
 <head>
     <meta charset="UTF-8">
