@@ -2,24 +2,24 @@
 layout: diversity
 ---
 
-# ADA Template Website
-## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
-3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
-4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
-**Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
-5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
-7. This line is a test to see if the web site is updating
+# Grouping Ethnicities into Ethnic Groups
+As we mentioned earlier, the world is diverse. In fact, our dataset presents a total of 431 different ethnicities. Can you imagine ? This is more than twice the number of countries in the world, we can’t work with such a large number of classes. Indeed some ethnicities might be composed of only a small number of people whereas others might be composed of thousands of people, this is not balanced at all ! As such, grouping them into larger ethnic groups is a good idea. Not only does it guarantee a certain level of anonymity between ethnicities, but it also significantly balances the disparities between them.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+As such, the ethnicities were manually grouped according to the [UK's list of ethnic groups](https://www.ethnicity-facts-figures.service.gov.uk/style-guide/ethnic-groups/). All 431 ethnicities were mapped to the following 4 ethnic groups:
+- White
+- Black, Caribbean or African
+- Asian, Middle East and Tribes
+- Mixed or multiple ethnic groups
 
-There should be whitespace between paragraphs.
+<div style="text-align: center; margin: 0 auto;">
+  <!-- Replace the following line with your actual graph code -->
+  <iframe src="assets/plots/ethnic_group_counts.html" width="700" height="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Throughout the dataset, the ethnic groups “White” and “Asian, Middle East and Tribes” account for roughly 2/3 of the population.
+
+
 
 # Header 1
 
