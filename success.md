@@ -33,8 +33,9 @@ Below you can find the evolution of this success score over time. As it is possi
 </div>
 
 The movies with the highest success are the following:
+
 <div style="text-align: center; margin: 0 auto;">
-  <iframe src="assets/plots/Most_successful_movies.png" style="width: 100%; height: 100%; border: none; display: block; margin: 0 auto;"></iframe>
+  <img src="assets/plots/Most_successful_movies.png" style="width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
 
 ## Unveiling the Machine Learning Model
