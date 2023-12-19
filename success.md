@@ -75,7 +75,9 @@ In a nutshell, the formula for a successful movie is a blend of financial prowes
 
 Make sure to check our official repository and try our ML predictors! 
 
-You can try them as well below (This feature still is under revision as we are experiencing problems with the model deployment in a server.)
+You can try them as well below:
+
+<sub>(This feature is still under revision as we are experiencing problems with the model deployment in a server)</sub>
 
 <html lang="en">
 <head>
