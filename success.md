@@ -122,7 +122,7 @@ In a nutshell, the formula for a successful movie is a blend of financial prowes
             var action = parseFloat(document.getElementById('action').value);
             var drama = parseFloat(document.getElementById('drama').value);
             // Load your trained linear regression model
-            var model = joblib.load('assets/plots/linear_regression_model.jolib');
+            var model = joblib.load('assets/plots/linear_regression_model.joblib');
             // Make prediction
             var prediction = model.predict([[budget, releaseYear, ethnicScore, genderScore, adventure, englishLanguage, runtime, indie, worldCinema, action, drama]]);
             // Display the result
@@ -132,7 +132,5 @@ In a nutshell, the formula for a successful movie is a blend of financial prowes
 </body>
 </html>
 
-
-[Continue Exploring](./another-page.html)
 
 
