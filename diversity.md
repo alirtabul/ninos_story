@@ -25,7 +25,7 @@ Before diving into any kind of analysis, let’s have a look at our data so that
 Over the past century many things have changed, trends and fashion are not anymore the same, trade and technology have massively accelerated leading today to a more diverse world than ever. Let’s see if this diversity increase is present in the cinema industry.
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/actor_diversity_over_time.html" width="700" height="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/actor_diversity_over_time.html" width="1200" height="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 From this plot we can deduce the following points:
 
