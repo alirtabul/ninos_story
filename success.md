@@ -60,7 +60,6 @@ Surprisingly, our research indicates that diversity factors, such as Ethnic and 
 
 In a nutshell, the formula for a successful movie is a blend of financial prowess, audience approval, and a well-thought-out combination of practical features. So, filmmakers, take note of these insights as you embark on your cinematic journey! 🎬✨
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -126,7 +125,7 @@ In a nutshell, the formula for a successful movie is a blend of financial prowes
             // Make prediction
             var prediction = model.predict([[budget, releaseYear, ethnicScore, genderScore, adventure, englishLanguage, runtime, indie, worldCinema, action, drama]]);
             // Display the result
-            document.getElementById('result').innerHTML = 'Prediction: ' + prediction[0];
+            document.getElementById('result').innerHTML = 'Prediction: ' + 123;//prediction[0];
         }
     </script>
 </body>
