@@ -50,7 +50,10 @@ Here we can see three major trends:
 ## Actor diversity between movie genres
 Now let’s focus on the actor diversity among movie genres.
 
-[show distribution of ethnic group depending depending on the genre]
+<div style="text-align: center; margin: 0 auto;">
+  <!-- Replace the following line with your actual graph code -->
+  <iframe src="assets/plots/genre_diversity.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
 
 The first thing we can notice is the fact that the cinema industry, all time combined, is dominated by four genres: Draman, Comedy, Romance Film and Action. Also we can observe that among those four genres, the distribution of ethnic group is roughly the same, the two dominant groups are White and Asian, Middle east and Tribes and when combined, with the group white being slightly bigger than the group Asian, Middle east and Tribes (except for the Romance movies where the two are of same importance). Moreover those two represente more than ⅔ of the distribution in all four genres. 
 But now if we interest into the rest of the genres we can see some that are really different than the other regarding only the distribution on ethnic group. Indeed two genres are dominated by the group Asian Middle east and tribes, the genre World cinema and the genre Musical. This shows that in general movie genre behaves similarly in terms of ethnic distribution, which is similar to our previous observation with men and women, but some of them are really different from the “norm” such as the genres world cinema and Musical. 
