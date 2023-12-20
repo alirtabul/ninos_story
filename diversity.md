@@ -61,7 +61,10 @@ But now if we interest into the rest of the genres we can see some that are real
 ## Actor diversity in the movies’ main characters
 Now, and this is the last exploration plots we promise, let’s see the actors diversity among main/side characters.
 
-[the two big plots]
+<div style="text-align: center; margin: 0 auto;">
+  <!-- Replace the following line with your actual graph code -->
+  <iframe src="assets/plots/main_roles_diversity.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
 
 Before analyzing the piecharts let's analyze the barplots representing the distribution of ethnic groups playing main/side roles. As we can see there are much more people playing side roles than main roles, this first observation is to be expected because in a movie, for 3-5 main characters there are much more side characters. Then we can observe that, in both barplots, the *ranking* of the most important ethnic group based on the number of actor are the same. However we can see that those proportions vary between main roles and side roles. Indeed for main roles the difference in number of actors from an ethnic group to another seems to be constant ($\approx 3000$), whereas for side roles we can see that this difference is no more constant. In fact the ethnic group ``Asia, Middle East and Tribes`` is almost as important as the ethnic group ``White`` and those two categories dominate the distribution. Similarly, ``Mixed or mulpiple ethnic group`` and ``Black, Caribbean or African`` have a similar number of side actors, even if they represent a smaller part of the barplot.
 
