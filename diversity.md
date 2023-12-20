@@ -37,7 +37,10 @@ As we can see the diversity in the cinema industry can be decomposed into three 
 
 We can also separate men and women:
 
-[show big graph with men on left, women on right]
+<div style="text-align: center; margin: 0 auto;">
+  <!-- Replace the following line with your actual graph code -->
+  <iframe src="assets/plots/actor_diversity_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
 
 Here we can see three major trends:
 - Firstly, and this is not surprising, there are many more roles that are played by men than women, indeed in 2007 the number of roles played by men was twice the number of roles played by women !
