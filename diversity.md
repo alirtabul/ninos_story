@@ -39,7 +39,7 @@ We can also separate men and women:
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/actor_diversity_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/actor_diversity_over_time_gender.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 Here we can see three major trends:
