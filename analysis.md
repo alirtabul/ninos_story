@@ -9,6 +9,26 @@ In this part of our project, we look at the correlations between the box office 
 ### Number of ethnic groups present in the movie
 First, since our analysis is about diversity, we will look at the influence of the number of ethnic groups present. Does it appear beneficial to have multiple ethnic groups?
 
+### Diversity Scores
+You will think, is the number of ethnic groups really what matters in diversity? What if there are is just one actor for diversity points? Well fear not! We had the same thoughts and we came up with what we call diversity scores! 
+
+#### Ethnic Diversity Score
+We penalise any over- or underrepresentation of ethnic groups in our calculations. Best score is 1 and worst score is 0. Now, let's see the relations between this score and the box office revenues.
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/ethnic_diversity_score_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
+
+
+
+#### Gender Diversity Score
+We said scores, so here is our second score. We concenrate on the gender of the actors here and we penalise any under- or overrepresentation of gender similarly to our ethnic diversity score above. 
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/gender_diversity_score_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
 3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
 4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
 **Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
