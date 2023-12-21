@@ -4,10 +4,26 @@ layout: analysis
 
 # Correlation Analysis
 ## Concept
-In this part of our project, we look at the correlations between the box office revenue of the movies and other factors.
+Let us now take look at the correlations between the box office revenue of the movies and other factors.
 
 ### Number of ethnic groups present in the movie
 First, since our analysis is about diversity, we will look at the influence of the number of ethnic groups present. Does it appear beneficial to have multiple ethnic groups?
+
+![Movie revenue depending on the number of ethnic groups](/assets/img/movie_revenue_per_num_groups.png)
+
+Looking at this graph, and by our analyses, we can see that the more ethnic groups are present the higher the box office revenue! We see that there is a positive correlation between the two.
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/movies_pergroup_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/box_office_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/revenue_per_ethnicity.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
 
 ### Diversity Scores
 You will think, is the number of ethnic groups really what matters in diversity? What if there are is just one actor for diversity points? Well fear not! We had the same thoughts and we came up with what we call diversity scores! 
@@ -19,7 +35,7 @@ We penalise any over- or underrepresentation of ethnic groups in our calculation
   <iframe src="assets/plots/ethnic_diversity_score_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-
+![Movie revenue depending on the ethnic score](/assets/img/box_office_per_ethnic_score.png)
 
 
 #### Gender Diversity Score
@@ -27,6 +43,26 @@ We said scores, so here is our second score. We concenrate on the gender of the 
 
 <div style="text-align: center; margin: 0 auto;">
   <iframe src="assets/plots/gender_diversity_score_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/box_office_per_gender.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
+### Genre
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/revenue_vs_genre.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
+## Correlation tables
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/corr_no_budget.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+</div>
+
+<div style="text-align: center; margin: 0 auto;">
+  <iframe src="assets/plots/corr_revenue_with_budget.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
