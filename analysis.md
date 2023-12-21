@@ -14,13 +14,13 @@ First, since our analysis is about diversity, we will look at the influence of t
 Looking at this graph, and by our analyses, we can see that the more ethnic groups are present the higher the box office revenue! We see that there is a positive correlation between the two. However, we also notice that the uncertainty of the income also becomes greater.
 
 <div style="text-align: center; margin: 0 auto;">
-  <iframe src="assets/plots/movies_pergroup_over_time.html" width="400" height="300" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/movies_pergroup_over_time.html" width="600" height="400" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 Over the years, more and more movies are produced (and introduced in our data set), so more diverse movie are made. We notice, nonetheless, that movies with all four ethnic groups present are the rarest. 
 
 <div style="text-align: center; margin: 0 auto;">
-  <iframe src="assets/plots/box_office_over_time.html" width="400" height="300" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/box_office_over_time.html" width="600" height="400" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 We also see that the box office revenue is also growing as time passes. The question is still there: Do the ethnicities of the cast influence in any way this growing of revenue?
