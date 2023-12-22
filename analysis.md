@@ -4,64 +4,56 @@ layout: analysis
 
 # Movie correlation Analysis
 ## Concept
-In this part of our project, we'll try to observe if the diversity seems to impact the movie success. And if it isn't the case what are the other factor that do influence a movie outcome ? In other words, we'lllook at the correlations between the box office revenue of the movies and its characteristics, such as the year of release, the genre, the cast or the budget.
+In this part of our project, we'll try to observe if the diversity seems to impact the movie's success. And if it isn't the case what are the other factors that do influence a movie outcome? In other words, we'll look at the correlations between the `Box office revenue` of the movies and their characteristics, such as the year of release, the genre, the cast or the budget.
 
-## Defining the succes of a movie 
-As mentionned before, we would like assess the success of movies depending on different factors. But how do we define a movie success ? 
+## Defining the success of a movie 
+So, we want to assess the success of movies depending on different factors. But _how_ do we define success? 
 
 ### Box office revenue
-The first features in our dataset that could quantify a movie succes is the `Box office revenue`. Indeed it's usually true that the more successful a movie is, the more people are going to watch it in theater and the more money it's going to make.
+The first feature in our dataset that could quantify a movie's success is the `Box office revenue`. Indeed, it's usually true that the more successful a movie is, the more people will watch it in the theatres and generate revenue.
 
-For our analysis, we also care about the temporal evolution of movie success and its features over time. Thus for a better comprehension, let's vizualise the mean `Box office revenue` over time.
+For our analysis, we also care about the temporal evolution of movie success and its features over time. Thus, for better comprehension, let's visualise the mean `Box office revenue` over time.
 
 <div style="text-align: center; margin: 0 auto;">
   <iframe src="assets/plots/box_office_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 We can see that the mean box office revenue is increasing with time. This could be due to a lot of different factors:
-- First the revenue currency isn't the same 100 hundred years ago and now and revnue value entered in 1956 could be doesn't have the same impact or meaning than now
-- With time, more money is given to produce movie 
-Few additional comment: the inlfation also plays an role impacting the real power of this value. To have more accurate values, we should have taking in account the inflation.
-
-
-### Success score 
-**Should we talk about it now ?**
-
-## Note considering dataset sizes
-A note concerning our features and the dataset size. For most of our movie success analysis, we're going to use `Box office revnue` rather than the `Success` and we won't consider too much the `Vote average` and the `Budget`. To explain, the situation, these two last features come from the additional dataset Kaggle and unfortunately this dataset is smaller than the CMU one. Thus if we want to do some analysis using the `Budget` for example, we have to remove a considerabe high number of `Nan`or 0 value, reducing considerably the dataset (from 20'000 to less than 2'000). That's why we'll mosly focus our analysis on the `B`
+- First, the revenue currency isn't the same as 100 hundred years ago. The revenue value entered in 1956 doesn't have the same impact or meaning as we have not adjusted for inflation.
+- With time, more money is given to produce a movie 
 
 ***
 
 ## Ethnic representation analysis
 
 ### Box office revenue depending on ethnic group
-We'll start answering one of the first question that we could ask. Is there a difference in the Budget depending on the ethnic group ? 
-Let's have a look at this !
+We'll start by answering one of the first questions we could ask: Is there a difference in the `Box office revenue` depending on the ethnic group? 
+Let's have a look at this!
 
 <div style="text-align: center; margin: 0 auto;">
   <iframe src="assets/plots/revenue_per_ethnicity.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-We see that actors of all ethnicity play on average in similarly lucrative movies. Our statistical anlyses tell us however that white people tend to play in the movies with highest box office revenues, while Asian people tend to play in the thos with the lowest box office revenues. <br>
+We see that actors of all ethnicities play on average in similarly lucrative movies. Our statistical analyses tell us, however, that white people tend to play in the movies with the highest box office revenues and Asian people in those with the lowest box office revenues. <br>
 
-It could also be relevant to analyze how does the mean box office revenue evolved over time.
+It could also be relevant to analyze how the mean box office revenue evolved.
 
 <div style="text-align: center; margin: 0 auto;">
-  <iframe src="assets/plots/budget_ethnic_group_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/box_office_ethnic_group_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-All different ethnicities seem to follow the same general behaviour but `White` actors still seem to play in movie which ended up with a higher revenue.
+All different ethnicities seem to follow the same general behaviour but `White` actors still seem to play in movies which ended up with a higher revenue.
 
 
 ### Ethnic Diversity Score
---> Maybe explain better why we need the ethnic diversity score (Because we need a variable )
-We wanted a variable to quantify the diversity representation in movie. We first try to use the the mean number of unique ethicities but it does't take in account the proportion of each ethinicities in the cast. For example, if you have 20 white actors, 1 asian, 1 middle east and 1 black one, the score will be of 4 however we can really say that this cast is really diverse.
+
+We wanted a variable to quantify the diversity representation in movies. We first tried to use the mean number of unique ethnicities but that doesn't take into account the proportion of each ethnicity in the cast. For example, if a movie has 20 White, 1 Asian, 1 Middle Eastern and 1 Black actor, the score will be 4. However, we can't say that this cast is diverse.
 
 
-The `Ethnic diversity score` roots from the idea that all ethnicities should be of equal percentage in the cast. We have 4 ethnic groups in our analysis so each of them should make up 25% of the cast. In our calculation, we penalise the changes with respect to this 25%, we subtract the difference for each group to 1. When en ethnic group makes up the whole cast this approach would yield -1 as a score. 
+The `Ethnic diversity score` is rooted in the idea that all ethnicities should be of equal percentage in the cast. We have 4 ethnic groups in our analysis, so each should make up 25% of the cast. In our calculation, we penalise the changes from this 25%. We then subtract the difference of each group from 1. When an ethnic group makes up the whole cast this approach would yield a score of -1. 
 
-We penalise any over- or underrepresentation of ethnic groups in our calculations. Best score is 1 and worst score is 0. Now, let's see the relations between this score and the _Box office revenue_.
---> Should try to merge this 2 explanations. A bit clearer than the first one but more in detailed than the second one.
+Let's see the relations between this score and the _Box office revenue_.
+
 
 
 We see that this score tends to get higher as we get closer to current days. This is good news for the representation of everyone on the big screen. 
@@ -75,13 +67,13 @@ We see that this score tends to get higher as we get closer to current days. Thi
 ## Gender representation analysis
 
 ### Box office revenue depending on the gender
-As mentionned before, our analysis is mostly focus on the diversity and thus gendre representation also matter to us. Let's see the differences between men and women. In this following graph we might think that the mean box office revenue is similar for both, but we want to highlight that the scale is logarithmic! Do not rely only on your eyes! Small differences on the graph are extually exponentially bigger in real (**not so sure of that**)
+As mentionned before, our analysis is mostly focus on the diversity and thus gendre representation also matter to us. Let's see the differences between men and women. In this following graph we might think that the mean box office revenue is similar for both, but we want to highlight that the scale is logarithmic! Do not rely only on your eyes!
 
 <div style="text-align: center; margin: 0 auto;">
   <iframe src="assets/plots/box_office_per_gender.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-Not only is there a 4 million dollars gap between the medians, but a quick t-test confirms that this difference is statistically significant. Hence, women play in less well-payed movies ---> We don't know if they're less paid, it just that the movie had a lower revenue. Hopefully, this might improve in the future.<br>
+Not only is there a 4 million dollars gap between the medians, but a quick t-test confirms that this difference is statistically significant. Hence, women play in less lucrative movies. Hopefully, this might improve in the future.<br>
 
 ### Gender Diversity Score
 We said scores, so here is our second score. We concenrate on the gender of the actors here and we penalise any under- or overrepresentation of gender similarly to our ethnic diversity score above. <br>
@@ -101,7 +93,7 @@ So how do movies do with respect to their `Gender diversity score`?
 </div>
 
 
-A first glance at this graph shows that mostly low diversity scores have high box office revenues. Does that mean that when there are women in movies they bring down the revenues? No, of course not. It just means that the most popular movies until now had less women, which is not so surprising. Our `Gender diversity score` also only takes into account the presence of women, not their usefullness to the plot, but this is getting out of the scope of our research. If you are intereset in this topic we invite you to look up the <a href="https://en.wikipedia.org/wiki/Bechdel_test">Bechdel test</a>. ---> Be carefull a low value of diversity gendre score doesn't mean that there are a lot of women, but that there is a unbalanced gender cast. A movie with only women would have a low score as well.
+A first glance at this graph shows that mostly low diversity scores have high box office revenues. Does that mean that when there are women in movies they bring down the revenues? No, of course not. It just means that the most popular movies until now had an unbalanced cast.
 
 
 ### Genre
@@ -117,15 +109,15 @@ We notice that Adventure movies are the most lucrative, along with Thrillers, wh
 
 
 ## Correlation tables
-We would like to use machine learning tools to see if we can predict the `Box office revenue` value of a movie based on its characteristics, such as diversity, budget or genres. 
+We use a machine learning tools to see if we can predict the `Box office revenue` value of a movie based on its characteristics, such as diversity, budget or genres. 
 
-We divide this part in two, wanting to investigate if we could predict a success score without taking into account the budget of the movie. --> **Ok true but the main reason why we divided the analysis in two was to be careful with the dataset set size reduction when using the Budget. Not using the Budget at the begining allow us to do an estimation on a big datset while we used the Budget, we get a importat feature but the downside is that the dataset is super small and then it's hard to generalize. I think it's important to mention that**
+We divide this part in two, wanting to investigate if we could predict a success score without taking into account the budget of the movie. The main reason for this is that we have a limited amount of information about the budgets. This information coming from an external source, we only get information about 10% of our original data, which is a considerabale reduction that could lead to wrong conclusions.
 
 <div style="text-align: center; margin: 0 auto;">
   <iframe src="assets/plots/corr_box_no_budget_color.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-As we can see the fit of the correlation model above is not so good. --> **Why ? Explain why (R^2 value).** The one on the bottom, which considers budget is better for the analysis of our data. This confirms that the budget is indeed a very important factor that outrules most of the other ones --> **Again the datset is super small, we should be careful about these sentences**. The importance of the other factors drops once budget is introduced. We believe that we should then continue with this factor in our establishment of the _Success score_.
+As we can see the fit of the correlation model above is not so good, the R^2 value is low. The one on the bottom, which considers budget is better for the analysis of our data. This confirms that the budget is indeed a very important factor that outrules most of the other ones. The importance of the other factors drops once budget is introduced. We believe that we should then continue with this factor in our establishment of the _Success score_.
 
 <div style="text-align: center; margin: 0 auto;">
   <iframe src="assets/plots/corr_box_with_budget_color.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
@@ -212,7 +204,7 @@ Just like for the number of ethnic groups, we have a slight negative correlation
 #### Gender Diversity Score
 We said scores, so here is our second score. We concenrate on the gender of the actors here and we penalise any under- or overrepresentation of gender similarly to our ethnic diversity score above. <br>
 
-Before we give oour attention to the score, let us see the differences between men and women. In this following grpah we might think that the mean box office revenue is similar for both, but we want to highlight that the scale is logarithmic! Do not rely only on your eyes!
+Before we give oour attention to the score, let us see the differences between men and women. In this following graph we might think that the mean box office revenue is similar for both, but we want to highlight that the scale is logarithmic! Do not rely only on your eyes!
 
 <div style="text-align: center; margin: 0 auto;">
   <iframe src="assets/plots/box_office_per_gender.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
@@ -274,4 +266,5 @@ As we can see the fit of the correlation model above is not so good. The one on 
   <iframe src="assets/plots/corr_box_with_budget_color.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-
+## Note considering dataset sizes
+A note concerning our features and the dataset size. For most of our movie success analysis, we're going to use `Box office revenue` rather than the `Success` and we won't consider too much the `Vote average` and the `Budget`. To explain, the situation, these two last features come from the additional dataset Kaggle and unfortunately this dataset is smaller than the CMU one. Thus if we want to do some analysis using the `Budget` for example, we have to remove a considerabe high number of `Nan`or 0 value, reducing considerably the dataset (from 20'000 to less than 2'000). 
