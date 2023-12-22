@@ -46,7 +46,7 @@ Shapley values, in the context of our cinematic analysis, serve as illuminating 
 
 By calculating Shapley values, we gain insights into the relative importance of factors like budget, movie runtime, genre, release year, and ethnic diversity, understanding how each contributes to the cinematic triumph. It's akin to acknowledging the distinct notes in a harmonious symphony, where each feature plays a crucial part in composing the narrative of a successful film.
 
-Both models presented similar Shapley distributions however the model to predict the `Box office revenue` performed way ($R^2$ = ~0.4-0.6) better than `Success score` predictor ($R^2$ = ~0.2). Subsequently, you will only plot the results for the Box Office Revenue ML predictor:
+Both models presented similar Shapley distributions however the model to predict the `Box office revenue` performed way ($R^2$ = ~0.48) better than `Success score` predictor ($R^2$ = ~0.24). Subsequently, you will only plot the results for the Box Office Revenue ML predictor:
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
