@@ -25,7 +25,7 @@ $$ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \te
 - **Box Office Revenue - Budget:** The difference signifies the financial success of a movie, reflecting how much it earned beyond its production costs.
 - **Vote Average:** This factor represents audience approval, a crucial aspect in determining a movie's overall success.
 
-Below you can find the evolution of this success score over time. As it is possible to see, the score has fluctuations over the years, but on average there is a slight increase. This variable seems to capture the behavior of its componants. The `Success score` appears to have the variations of the `Vote average` while also having the increase of the `Box office revenue` and the `Budget`.
+Below you can find the evolution of this success score over time. As it is possible to see, the score has fluctuations over the years, but on average there is a slight increase. This variable seems to capture the behavior of its components. The `Success score` appears to have the variations of the `Vote average` while also having the increase of the `Box office revenue` and the `Budget`.
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
