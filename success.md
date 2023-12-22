@@ -5,7 +5,7 @@ layout: success
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-# Decoding Movie Success
+# <span style="color: #9C3587;">Decoding Movie Success</span>
 
 Welcome to the Success Score Page, where we unravel the secrets behind what makes a movie successful. In our pursuit of understanding cinematic intricacies, we have developed two Machine-Learning models:
 
@@ -14,13 +14,13 @@ Welcome to the Success Score Page, where we unravel the secrets behind what make
 
 Bear in mind that the idea is to see if features related to ethnicity, have an impact on the predictions made by the models.  
 
-## Understanding the Success Score
+## <span style="color: #9C3587;">Understanding the Success Score</span>
 
 Have you ever wondered what factors contribute to a movie's success? We've got you covered! Our team has evaluated various features to create a Success Score until reaching the **Perfect Formula** (hope so). This formula takes into account essential features in the following manner:
 
 $$ \text{Success Score} = (\text{Box Office Revenue} - \text{Budget}) \times \text{Vote Average} $$
 
-#### Justification:
+#### <span style="color: #9C3587;">Justification:</span>
 
 - **Box Office Revenue - Budget:** The difference signifies the financial success of a movie, reflecting how much it earned beyond its production costs.
 - **Vote Average:** This factor represents audience approval, a crucial aspect in determining a movie's overall success.
@@ -38,7 +38,7 @@ The movies with the highest success are the following:
   <img src="assets/plots/Most_successful_movies.png" style="width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
 
-## Unveiling the Machine Learning Models
+## <span style="color: #9C3587;">Unveiling the Machine Learning Models</span>
 
 Once the ML models have been trained and evaluated we can see the influence that their features had thanks to the Shapley values. 
 
@@ -61,11 +61,11 @@ The top influencers are:
 
 The Ethnic Diversity score has no major influence on the decision of the model.
 
-### Conclusion: Practicality Prevails
+### <span style="color: #9C3587;">Conclusion: Practicality Prevails</span>
 
 In all our analyses, a clear pattern emerges—practical features play an important role in determining a movie's box office success or predicting the success score. The budget, movie runtime, release year, and genre, especially drama, weigh heavily in the equation.
 
-## The Diversity Factor
+## <span style="color: #9C3587;">The Diversity Factor</span>
 
 Surprisingly, our research indicates that diversity factors, such as Ethnic and Gender Diversity Scores, don't emerge as primary influencers.
 

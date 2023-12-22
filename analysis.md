@@ -2,14 +2,14 @@
 layout: analysis
 ---
 
-# Movie correlation Analysis
-## Concept
+# <span style="color: #9C3587;">Movie correlation Analysis</span>
+## <span style="color: #9C3587;">Concept</span>
 In this part of our project, we'll try to observe if the diversity seems to impact a movie's success. And if it isn't the case what are the other factors that do influence a movie outcome? In other words, we'll look at the correlations between the `Box office revenue` of the movies and their characteristics, such as the year of release, the genre, the cast or the budget.
 
-## Defining the success of a movie 
+## <span style="color: #9C3587;">Defining the success of a movie</span>
 So, the aim is to  assess the success of movies depending on different factors. But _how_ do we define success? 
 
-### Box office revenue
+### <span style="color: #9C3587;">Box office revenue</span>
 The first feature in our dataset that could quantify a movie's success is the `Box office revenue`. Indeed, it's usually true that the more successful a movie is, the more people will watch it in the theatres and generate revenue.
 
 For our analysis, we also care about the temporal evolution of movie success and its features over time. Thus, for better comprehension, let's visualise the mean `Box office revenue` over time.
@@ -25,9 +25,9 @@ The general revenue increase could be due to a lot of different factors:
 
 ***
 
-## Ethnic representation analysis
+## <span style="color: #9C3587;">Ethnic representation analysis</span>
 
-### Box office revenue depending on ethnic group
+### <span style="color: #9C3587;">Box office revenue depending on ethnic group</span>
 We'll start by answering one of the first questions we could ask: Is there a difference in the `Box office revenue` depending on the ethnic group? 
 Let's have a look at this!
 
@@ -46,7 +46,7 @@ It could also be relevant to analyze how the mean box office revenue evolved.
 All different ethnicities seem to follow the same general behaviour but _White_ actors still seem to play in movies which ended up with a higher revenue.
 
 
-### Ethnic Diversity Score
+### <span style="color: #9C3587;">Ethnic Diversity Score</span>
 
 For our analysis we wanted to define a variable that could quantify the diversity representation in movies. We first tried to use the number of unique ethnicities in movie but it didn't take into account the proportion of each ethnicity in the cast. For example, if a movie has 20 White, 1 Asian, 1 Middle Eastern and 1 Black actor, the score will be 4, as we have 4 different ethnicites. However, we can't say that this cast is diverse. We neeeded a more robust score.
 
@@ -78,9 +78,9 @@ Let's also check this distribution of each range over time.
 Surpisingly the range between [0.2,0.3] and [0.4,0.5] are the most present diversity score distribution while they're also associated to very low `Box office revenue` (remember the previous figure). It means that the most common ethnic diversity representation setting (low-mid representation) doesn't lead to the most lucrative movie. Whereas some rare movies that have "the good" cast ethnic diversity ([0.3,0.4] low-mid score or [0.9,1] high score) may be related to the highest revenue. 
 
 
-## Gender representation analysis
+## <span style="color: #9C3587;">Gender representation analysis</span>
 
-### Box office revenue depending on the gender
+### <span style="color: #9C3587;">Box office revenue depending on the gender</span>
 As mentionned before, our analysis is mostly focus on the diversity and thus gender representation also matters to us. Let's see the differences between men and women. In this following graph we might think that the mean `Box office revenue` is similar for both, but we want to highlight that the scale is logarithmic! Do not rely only on your eyes!
 
 <div style="text-align: center; margin: 0 auto;">
@@ -89,7 +89,7 @@ As mentionned before, our analysis is mostly focus on the diversity and thus gen
 
 Not only is there a 4 million dollars gap between the medians, but a quick t-test confirms that this difference is statistically significant. Hence, women play in less lucrative movies. Hopefully, this might improve in the future.<br>
 
-### Gender Diversity Score
+### <span style="color: #9C3587;">Gender Diversity Score</span>
 We said scores, so here is our second score. We concentrate on the gender of the actors here and we penalise any under- or overrepresentation of gender similarly to our ethnic diversity score above. <br>
 
 It's now time to see the evolution of this variable over time.
@@ -110,7 +110,8 @@ So how do movies do with respect to their `Gender diversity score`?
 A first glance at this graph shows that mostly low diversity scores have high box office revenues. Does that mean that when there are women in movies they bring down the revenues? No, not necessarily. It just means that the most popular movies until now had an unbalanced cast.
 
 
-### Genre
+
+### <span style="color: #9C3587;">Genre</span>
 
 We can also think about the genre of the movie we are talking about. Depending on the genre, people will be more or less likely to go to the cinema and so to contribute to the `Box office revenue`. We show here the **Top 10** most represented movie genres.
 
@@ -121,8 +122,7 @@ We can also think about the genre of the movie we are talking about. Depending o
 We notice that Adventure movies are the most lucrative, along with Thrillers, while Indie and World Cinema movies are on the lowest sides. Indie movies tend less to be in cinema than other types of movies and World Cinema is usually less globalised. Thus, not many surprised here.
 
 
-
-## Correlation tables
+## <span style="color: #9C3587;">Correlation tables</span>
 We use a machine learning tools to see if we can predict the `Box office revenue` value of a movie based on its characteristics, such as diversity, budget or genres. 
 
 We divide this part in two, wanting to investigate if we could predict a success score without taking into account the budget of the movie. The main reason for this is that we have a limited amount of information about the budgets. This information coming from an external source, we only get information about 10% of our original data, which is a considerabale reduction that could lead to wrong conclusions.
