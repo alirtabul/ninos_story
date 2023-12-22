@@ -46,7 +46,7 @@ Shapley values, in the context of our cinematic analysis, serve as illuminating 
 
 By calculating Shapley values, we gain insights into the relative importance of factors like budget, movie runtime, genre, release year, and ethnic diversity, understanding how each contributes to the cinematic triumph. It's akin to acknowledging the distinct notes in a harmonious symphony, where each feature plays a crucial part in composing the narrative of a successful film.
 
-Both models presented similar Shapley distributions. Subsequently, you can see the results for the Box Office Revenue ML predictor:
+Both models presented similar Shapley distributions however the model to predict the `Box office revenue` performed way ($R^2$ = ~0.4-0.6) better than `Success score` predictor ($R^2$ = ~0.2). Subsequently, you will only plot the results for the Box Office Revenue ML predictor:
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
@@ -57,7 +57,7 @@ The top influencers are:
 
 1. **Budget:** The financial backbone of a movie.
 2. **Movie Runtime:** Impactful in capturing audience attention.
-3. **Making a Drama movie:** Reflects the influence of time on a movie's success.
+3. **Movie release year:** Reflect the economical situation.
 
 The Ethnic Diversity score has no major influence on the decision of the model.
 
@@ -69,4 +69,4 @@ In all our analyses, a clear pattern emerges—practical features play an import
 
 Surprisingly, our research indicates that diversity factors, such as Ethnic and Gender Diversity Scores, don't emerge as primary influencers.
 
-In a nutshell, the formula for a successful movie is a blend of financial prowess and a well-thought-out combination of the aforementioned features. So, filmmakers, take note of these insights as you embark on your cinematic journey! 🎬✨
+So, filmmakers, take note of these insights as you embark on your cinematic journey! 🎬✨
