@@ -2,7 +2,7 @@
 layout: diversity
 ---
 
-# Grouping Ethnicities into Ethnic Groups
+# <span style="color: #9C3587;">Grouping Ethnicities into Ethnic Groups</span>
 As we mentioned earlier, the world is diverse. In fact, our dataset presents a total of 431 different ethnicities. Can you imagine? This is more than twice the number of countries in the world, we can’t work with such a large number of classes. Indeed some ethnicities might be composed of only a small number of people whereas others might be composed of thousands of people, this is not balanced at all! As such, grouping them into larger ethnic groups is a good idea. Not only does it guarantee a certain level of anonymity between ethnicities, but it also significantly balances the disparities between them.
 
 
@@ -18,10 +18,10 @@ By looking at the proportion of ethnic groups below, we can see that the ethnic 
   <iframe src="assets/plots/ethnic_group_counts.html" width="700" height="700" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-# Looking at the data
+# <span style="color: #9C3587;">Looking at the data</span>
 Before diving into any kind of analysis, let’s have a look at our data so that we have a feeling of its content. 
 
-## Actor diversity over time
+## <span style="color: #9C3587;">Actor diversity over time</span>
 Over the past century many things have changed, trends and fashion are not anymore the same, trade and technology have massively accelerated leading today to a more diverse world than ever. Let’s see if this diversity increase is present in the cinema industry.
 
 <div style="text-align: center; margin: 0 auto;">
@@ -47,7 +47,7 @@ Here we can see three major trends:
 - Secondly, even with this difference we can see that the proportion of ethnicities in the two distribution is roughly the same. This is important for our later observations as, even if the men “dominates” the industry, they do not impose their “ethnic” distribution to the overall ethnic distribution.
 - Lastly, we can observe that over time (expcet after 2009) the number of role played by both sex exploded. In fact we can even say that the trend of number of role payed by year is exponential. This is only based on the observations returned by the graph, hence it might be possible that this trend is no more valid after 2015. Several factors may be responsible for this increase, such as the democratization of the Internet, globalization and the explosive demand for entertainment.
 
-## Actor diversity between movie genres
+## <span style="color: #9C3587;">Actor diversity between movie genres</span>
 Now let’s focus on the actor diversity among movie genres.
 
 <div style="text-align: center; margin: 0 auto;">
@@ -59,8 +59,7 @@ The first thing we can notice is the fact that the cinema industry, all time com
 Moreover those two represente more than ⅔ of the distribution in all four genres. 
 But when looking at all the genres, _World cinema_ and the _Musical_ have unique distributions. Indeed, the two genres are dominated by the group _Asian Middle east and tribes_. This makes sense for _World cinema_ as it is defined as produced outside of USA.
 
-
-## Actor diversity in the movies' main characters
+## <span style="color: #9C3587;">Actor diversity in the movies' main characters</span>
 Now, and this is the last exploration plots, we promise, let’s see the actors diversity among main and side characters.   
 
 <div style="text-align: center; margin: 0 auto;">
