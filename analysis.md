@@ -66,7 +66,7 @@ Now let's drive into a deeper analysis, by dividing the `Ethnic diversity score`
   <iframe src="assets/plots/box_office_dep_ethnic_diversity_score.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-The general tendancy seems to be that the higher the `Ethnic diversity score` is the higher the `Box office revenue`, however the range [0.3,0.4] doesn't follow the general tendancy and have the highest mean revenue.
+The general tendancy seems to be that the higher the `Ethnic diversity score` is the higher the `Box office revenue`, however the range [0.3,0.4] doesn't follow the general tendancy and have the highest mean revenue. The general tendancy of higher revenue with more diverse cast could be explain that both `Box office revenue` and `Ethnic diversity score` increase with time. 
 
 Let's also check this distribution of each range over time.
 
