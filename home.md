@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Abstract
+# <span style="color: purple;">Abstract</span>
 
 The world is diverse, and so should cinema be to accurately represent us. Unfortunately, we still see problems arise when a more diverse cast is chosen. For example, when Halle Bailey, a black actress, was chosen as the Little Mermaid, word of boycotting emerged. Has this choice influenced the success of the movie, or is it just a loud minority? 
 
