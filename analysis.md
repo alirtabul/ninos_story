@@ -55,7 +55,7 @@ The `Ethnic diversity score` is rooted in the idea that all ethnicities should b
 Let's see the relations between this score and the `Box office revenue`. For now let's have a general overview of the score tendancy across time. 
 
 <div style="text-align: center; margin: 0 auto;">
-  <iframe src="assets/plots/mean_ethnic_diversity_score_over_time.html.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/mean_ethnic_diversity_score_over_time.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
 We see that this score tends to get higher as we get closer to current days. This is good news for the representation of everyone on the big screen. 
