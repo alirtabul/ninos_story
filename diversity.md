@@ -55,7 +55,7 @@ Now let’s focus on the actor diversity among movie genres.
   <iframe src="assets/plots/genre_diversity.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-The first thing we can notice is the fact that the cinema industry, all time combined, is dominated by four genres: _Drama_, _Comedy_, _Romance Film_ and _Action_. Also we can observe that among those four genres, the distribution of ethnic group is roughly the same, the two dominant groups are White and Asian, Middle east and Tribes, when combined, with the group white being slightly bigger than the group Asian, Middle east and Tribes (except for the Romance movies where the two are of same importance). --> this sentence is a big too long. Plus we don't understand the last part ? What do you mean combined ? What do you want to show ? 
+The first thing we can notice is the fact that the cinema industry, all time combined, is dominated by four genres: _Drama_, _Comedy_, _Romance Film_ and _Action_. Also we can observe that among those four genres, the distribution of ethnic group is roughly the same, the two dominant groups are White and Asian, Middle east and Tribes, with the group white being slightly bigger than the group Asian, Middle east and Tribes (except for the Romance movies where the two are of same importance).
 Moreover those two represente more than ⅔ of the distribution in all four genres. 
 But when looking at all the genres, _World cinema_ and the _Musical_ have unique distributions. Indeed, the two genres are dominated by the group _Asian Middle east and tribes_. This makes sense for _World cinema_ as it is defined as produced outside of USA.
 
