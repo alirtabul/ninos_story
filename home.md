@@ -10,7 +10,7 @@ Our study delves into the influence of diversity on the success of films. By foc
 
 # Datasets 
 
-This study is supported by the CMU Movie Database as well as the MovieLens Dataset from Kaggle.
+This study is supported by the CMU Movie Database as well as the MovieLens Dataset from <a href="https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset"> Kaggle </a>.
 
 # A note on Ethical Risk
 

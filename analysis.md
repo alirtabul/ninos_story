@@ -130,7 +130,7 @@ We divide this part in two, wanting to investigate if we could predict a success
   <iframe src="assets/plots/corr_box_no_budget_color.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
 </div>
 
-As we can see the fit of the correlation model above is not so good, the R^2 value is low. The one on the bottom, which considers budget is better for the analysis of our data. This confirms that the budget is indeed a very important factor that outrules most of the other ones. The importance of the other factors drops once budget is introduced. We believe that we should then continue with this factor in our establishment of the _Success score_.
+As we can see the fit of the correlation model above is not so good, the R^2 value is low. The one on the bottom, which considers budget is better for the analysis of our data. This confirms that the budget is indeed a very important factor that outrules most of the other ones. The importance of the other factors drops once budget is introduced. We believe that we should then continue with this factor in our establishment of the `Success score`.
 
 <div style="text-align: center; margin: 0 auto;">
   <iframe src="assets/plots/corr_box_budget_color.html" width="900" height="600" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
