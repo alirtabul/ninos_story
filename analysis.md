@@ -2,9 +2,27 @@
 layout: analysis
 ---
 
-# Correlation Analysis
+# Movie correlation Analysis
 ## Concept
-Let us now take look at the correlations between the _Box office revenue_ of the movies and other factors. We will also give the _Vote average_ its time to shine.
+In this part of our project, we'll try to observe if the diversity seems to impact the movie success. And if it isn't the case what are the other factor that do influence a movie outcome ? In other words, we'lllook at the correlations between the box office revenue of the movies and its characteristics, such as the year of release, the genre, the cast or the budget.
+
+### Defining the succes of a movie 
+As mentionned before, we would like assess the success of movies depending on different factors. But how do we define a movie success ? 
+
+#### Box office revenue
+The first features in our dataset that could quantify a movie succes is the `Box office revenue`. Indeed it's usually true that the more successful a movie is, the more people are going to watch it in theater and the more money it's going to make.
+
+For our analysis, we also care about the temporal evolution of movie success and its features over time. Thus for a better comprehension, let's vizualise the mean `Box office revenue` over time.
+
+![Movie box office revenue over time](/assets/plot/Budget_over_time.html)
+
+
+
+#### Success score 
+**Should we talk about it now ?**
+
+
+***
 
 ### Number of ethnic groups present in the movie
 First, since our analysis is about diversity, we will look at the influence of the number of ethnic groups present. Does it appear beneficial to have multiple ethnic groups?
