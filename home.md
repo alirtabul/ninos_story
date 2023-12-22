@@ -2,17 +2,18 @@
 layout: home
 ---
 
-# <span style="color: purple;">Abstract</span>
+# <span style="color: #9C3587;">Abstract</span>
 
 The world is diverse, and so should cinema be to accurately represent us. Unfortunately, we still see problems arise when a more diverse cast is chosen. For example, when Halle Bailey, a black actress, was chosen as the Little Mermaid, word of boycotting emerged. Has this choice influenced the success of the movie, or is it just a loud minority? 
 
 Our study delves into the influence of diversity on the success of films. By focusing on a wide range of movies from different genres, timestamps, and cultural backgrounds, we aim to provide insight into the correlation between cast diversity and movie success. The motivation behind our project is to reveal, perhaps, or predict whether a future movie will be successful based on the heterogeneity of its cast. This information can be useful for movie directors who are contemplating adding diverse crew members to their teams.
 
-# Datasets 
+# <span style="color: #9C3587;">Datasets</span>
 
 This study is supported by the CMU Movie Database as well as the MovieLens Dataset from <a href="https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset"> Kaggle </a>.
 
-# A note on Ethical Risk
+
+# <span style="color: #9C3587;">A note on Ethical Risk</span>
 
 Our study is purely based on our curiosity to see whether having a diverse cast improves the overall movie experience for users; does it give the audience a more exciting and engaging experience?
 
