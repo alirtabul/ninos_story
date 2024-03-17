@@ -14,10 +14,10 @@ Aquí, immergiu-vos en una història d'amor encantadora entre dues persones dest
 Prepareu-vos per una experiència emocionant i captivadora, on cada missatge revela un trosset més del seu amor inquebrantable. Us guiarem a través dels seus moments més dolços i íntims, explorant les emocions profundes i els vincles que els uneixen. Acompanyeu-nos en aquest viatge apassionant ple de moments tendres, rialles i, sobretot, amor sincer. Deixeu-vos endur per aquesta història romàntica que us farà creure en el poder de l'amor verdader. 
 </p>
 <p>
-Feliços 25 anys, amor de la meva vida. 
+Feliços 25 anys, amor de la meva vida! 
 </p>
 <p>
-T'estimo més que mai.
+T'estimo més que mai!
 </p>
 <p>
 </p>
