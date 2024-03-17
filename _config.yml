@@ -1,6 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-title: "<h1>Una historia d'amor i més amor</h1>"
-description: "<h2>Un bonic regal per a una bonica persona. T'estimo molt, Eva.</h2>" 
+title: "<h4>Una historia d'amor i més amor</h4>"
+description: "<h7>Un bonic regal per a una bonica persona. T'estimo molt, Eva.</h7>" 
 show_downloads: True
