@@ -1,6 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Diversity Impact in Movie Success
-description: "DRACO team: Abdul Ameer Ali, Bejan Diana, Peseux Romain, Samanos Clément, Voland Océane" 
+title: Una historia d'amor i més amor
+description: "Un bonic regal per a una bonica persona. T'estimo molt, Eva." 
 show_downloads: True
