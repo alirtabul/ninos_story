@@ -13,8 +13,8 @@ Prepareu-vos per una experiència emocionant i captivadora, on cada missatge rev
 
 Feliços 25 anys, amor de la meva vida. 
 
-**T'estimo més que mai.**
-<div>
+T'estimo més que mai.
+</div>
 
 
 
