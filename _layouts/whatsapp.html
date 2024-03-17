@@ -13,24 +13,16 @@
     {% include head-custom.html %}
 
     <style>
-        body {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        }
 
-        .page-header {
-          background-image: url('assets/img/2560x1600-504183-Iron-Man-War.jpg'); /* Replace 'path/to/your/image.png' with the actual path to your PNG image */
+            .page-header {
+          background-image: url('assets/img/flying-love-hearts-2880x1800.jpg'); /* Replace 'path/to/your/image.png' with the actual path to your PNG image */
           background-size: cover; /* Adjust as needed: 'cover' will make sure the image covers the entire header */
           background-position: center 20%; /* Adjust as needed: 'center center' will center the image */
-          color: #fcf0f6; /* Set text color to contrast with the image */
-          padding: 20px; /* Adjust as needed: Adds some padding around the header content */
-          height: 400px;
-          display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+          color: #1c353f; /* Set text color to contrast with the image */
+          text-align: center; /* Align the text to the center */
+          padding: 40px; /* Adjust as needed: Adds some padding around the header content */
+          height: 250px; /*2s70 */
+          font-size: 48px;
         }
         .page-buttons {
           text-align: center;
@@ -43,22 +35,19 @@
           padding: 10px 20px;
           text-decoration: none;
           color: #ffffff; /* Text color */
-          background-color: #9C3587; /* Background color */
+          background-color: #72cdda; /* Background color */
           border-radius: 5px;
           transition: background-color 0.3s ease;
         }
   
         .page-buttons .btn:hover {
-          background-color: #9C3587; /* Hover background color */
+          background-color: #72cdda; /* Hover background color */
         }
 
-        main {
-        flex: 1;
-      }
-
-      .site-footer {
-        margin-top: auto;
-      }
+        div {
+          text-align: justify;
+          text-justify: inter-word;
+        }
       </style>
 
   </head>
@@ -66,16 +55,22 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-        <h1 class="project-name">Analysis</h1>
+      <h1 class="project-name">{{ site.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <!-- {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %} -->
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <div class="page-buttons">
-        <a href="diversity" class="btn">Previous page</a>
-        <a href="home" class="btn">Home</a>
-        <a href="success" class="btn">Next page</a>
+        <a href="diversity" class="btn">Pàgina següent</a>
       </div>
 
       <footer class="site-footer">
