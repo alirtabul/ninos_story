@@ -1,64 +1,55 @@
 ---
-layout: home
+layout: whatsapp
 ---
 
-# <span style="color: #0c505a;">Descobreix què és l'amor vertader</span>
+# <span style="color: #000000;">El llibre de l'amor</span>
 <div>
 <p>
-Benvinguts a la nostra pàgina web plena de tendresa i romance. 
+WhatsApp ha esdevingut el llibre de la nostra relació, una crònica viva dels nostres moments compartits. I si teniu dubtes, us convido a que ho comproveu per vosaltres mateixos. Entreu avui mateix a una conversa amb algú important i trieu un dia al atzar; quedareu sorpresos pels resultats que hi trobareu. Retrobareu instants memorables, moments d'intimitat i connexió, i fins i tot aquells moments que ens han posat a prova. En preparar aquest regal, confesso que una llàgrima ha vessat pels meus records, rememorant els moments meravellosos que hem compartit, Eva.
 </p>
 <p>
-Aquí, immergiu-vos en una història d'amor encantadora entre dues persones destinades a estar juntes, l'Ali (Nino) i l'Eva (Nina). A través d'un estudi detallat de les seves converses de WhatsApp, us convidem a descobrir els secrets de la seva relació i a respondre a la pregunta que tothom es fa; qui estima més a l'altre? 
+És per aquest motiu que he decidit crear aquesta pàgina web. Vull explorar les estadístiques que amaga aquesta xarxa social i respondre a una pregunta que ens ha acompanyat des que vam començar a sortir: Qui estima més a l'altre? A través de les dades recollides, espero arribar a una resposta que ens permeti comprendre millor el profund amor que compartim.
 </p>
 <p>
-Prepareu-vos per una experiència emocionant i captivadora, on cada missatge revela un trosset més del seu amor inquebrantable. Us guiarem a través dels seus moments més dolços i íntims, explorant les emocions profundes i els vincles que els uneixen. Acompanyeu-nos en aquest viatge apassionant ple de moments tendres, rialles i, sobretot, amor sincer. Deixeu-vos endur per aquesta història romàntica que us farà creure en el poder de l'amor verdader. 
-</p>
-<p>
-Feliços 25 anys, amor de la meva vida! 
-</p>
-<p>
-T'estimo més que mai!
+I això no és només una reflexió del passat, sinó també una mirada cap al futur. A mesura que seguim creixent i construint els nostres somnis junts, aquesta anàlisi de les nostres interaccions ens pot ajudar a reforçar el nostre vincle i a mantenir-nos connectats en els moments més difícils. Espero que aquesta investigació ens permeti no només entendre millor la nostra relació, sinó també continuar enriquint-la i fent-la més forta cada dia.
 </p>
 <p>
 </p>
 </div>
 
 <div style="text-align: center;">
-  <img src="assets/img/Dream.jpg" alt="Grouping is an important step to make things simpler">
+  <img src="assets/img/Book of Love.jpg" alt="Grouping is an important step to make things simpler">
 </div>
 
 
 
 
-# <span style="color: #0c505a;">Qui som?</span>
+# <span style="color: #000000;">Som-hi!</span>
 
 <div>
 <p>
-La nit d'Halloween del 2017, l'Ali va presenciar el somni més lúcid de la seva vida.
+Comencem amb una pregunta que ens porta a reflexionar: Quantes paraules creieu que sumen les nostres converses?
 </p>
 <p>
-Va somiar que després de la universitat, els seus amics li van presentar una noia que mai havia vist en la seva vida, amb el nom de Nicolet. Seguint la lògica dels somnis, després de saludar-la, li va prendre la mà i van sortir a passejar cap a casa seva. No obstant això, aquest passeig no va ser un passeig normal dins d'un somni; va experimentar una sensació extremadament realista que el va fer oblidar tot el que l'envoltava, centrant-se únicament en la felicitat que sentia amb la Nicolet. Van parlar de tot i van mantenir converses profundes sobre ells mateixos. Recorda cada paraula que van intercanviar i cada emoció que va experimentar. En arribar a casa, es va sentir molt abatut perquè se n'havia d'anar, així que va decidir acompanyar-la a casa seva, maximitzant així el temps amb ella. Durant aquest viatge, només recorda com la va fer riure molt i com, en un dels seus adorables riures, ella va mossegar-li el genoll mentre estaven asseguts al bus, una mossegada que va sentir com si fos real i dolça. Va ser en aquest moment que es va enamorar d'ella, tot dins d'un somni!
-</p>
-<p>
-La pitjor part estava a punt de començar: el despertar. Així que, quan es va despertar, es va sentir furios i decebut que tot el que havia viscut només existís dins la seva ment, malgrat haver-ho considerat 100% real.
-</p>
-<p>
-Mentre encara estave al llit, enmig d'aquest mar de decepció, va recordar d'on havia sorgit el rostre de la Nicolet al seu cap: era una noia que només havia vist en una foto de perfil de WhatsApp durant 5 segons, uns dies abans del somni: l'Eva. Va tornar a mirar la foto i es va adonar que cada detall del seu rostre coincidia amb el de la Nicolet del seu somni. Com podia la seva ment crear-la de manera tan perfecta amb només 5 segons o menys de veure la seva foto? Estava en un grup de WhatsApp (amb algunes persones que mai havia vist, incloent-la) d'un amic que volia organitzar quedades, ja que eren nous a la universitat. Mentre l'Ali estava somiant aquella nit, els del grup havien parlat de quedar el dia després d'Halloween per anar a "la bolera", i ella hi era inclosa. Després del somni i de revisar els missatges, es va sentir molt eufòric perquè ara podia conèixer aquesta còpia de la Nicolet en la vida real. Tenia l'oportunitat de fer realitat el seu somni! No obstant això, també tenia por que la noia no tingués la mateixa personalitat que la Nicolet del seu somni, o fins i tot que fos lleugerament diferent de la seva foto de perfil (insisteix, s'havia enamorat de la noia del seu somni i només volia veure-la de nou tal com la recordava).
-</p>
-<p>
-Així doncs, avui va sortir amb aquest grup i la va veure. ERA EXACTAMENT IGUAL A LA NICOLET DEL SEU SOMNI! Però el millor de tot, era que tot d'ella era Nicolet: la seva rialla, la seva amabilitat i la seva personalitat. Ara, es sentia molt feliç per haver experimentat una sensació tan meravellosa que havia convertit literalment un somni en realitat. Estava realment impressionat de com tot s'havia alineat de manera tan perfecta i havia pogut conèixer la Nicolet. Ara, l'únic que volia era assolir el mateix nivell de felicitat que havia experimentat en el seu somni. Aquesta era ara la seva nova meta a la vida.
-</p>
-<p>
-La tarda del 18 de Novembre de 2018, sota la calmant pluja que banyava el Poblenou, l'Ali va confessar el seu somni a l'Eva; ella no podia para de somriure mentre l'Ali li explicava tot. En aquell mateix instant, l'Eva també va revelar el seu amor cap a ell, un amor que havia nascut el dia que es van trobar per primera vegada a "la bolera".
-</p>
-<p>
-Cinc anys i quatre mesos més tard, la flama del seu amor segueix creixent amb intensitat. Esdevenint un exemple de puretat i devoció, ambdos representen l'essència mateixa de l'amor autèntic.
+Si has especulat amb 1,255,172 paraules (sense comptar els innombrables audios de l'Eva), has encertat de ple! Sí, un total que equival a 3.3 "Don Quixots" o 1.6 "Bíblies", una xifra que resulta increïblement sorprenent! Si ens imaginéssim totes aquestes paraules unides en un document de Word, ocuparia un total de 13,000 pàgines, una magnitud que ha portat el meu ordinador al seu límit en diverses ocasions.
 </p>
 <p>
 </p>
-</div>
-
 <div style="text-align: center;">
-  <img src="assets/img/smile.jpg" alt="Grouping is an important step to make things simpler">
+  <img src="assets/img/Words_chat_ninos.png" alt="Grouping is an important step to make things simpler">
+</div>
+<p>
+</p>
+<p>
+A més, s'han transmès en total 365,408 missatges, dels quals 145,255 provenen de l'Eva i 178,028 de l'Ali, tal com es mostra en el següent gràfic:
+<div style="text-align: center;">
+  <img src="assets/plots/Message_Words.html" alt="Grouping is an important step to make things simpler">
+</div>
+</p>
+<p>
+El primer missatge enviat per l'Eva va ser el 8/11/17 a les 16:55:36 hores, amb un tendre "Huaa", mentre que l'Ali va respondre amb un alegre "hahaha". Això va marcar l'inici d'una conversa que, al llarg del temps, ha estat plena d'emocions, moments significatius i, sobretot, una connexió profunda entre nosaltres.
+</p>
+<p>
+</p>
 </div>
 
