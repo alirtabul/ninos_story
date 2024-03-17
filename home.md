@@ -23,8 +23,10 @@ T'estimo més que mai!
 </p>
 
 <div style="text-align: center;">
-  <img src="assets/img/smile.jpg" alt="Grouping is an important step to make things simpler">
+  <img src="assets/img/Dream.jpg" alt="Grouping is an important step to make things simpler">
 </div>
+
+
 
 
 # <span style="color: #0c505a;">Qui som?</span>
@@ -52,7 +54,6 @@ Cinc anys i quatre mesos més tard, la flama del seu amor segueix creixent amb i
 
 
 <div style="text-align: center;">
-  <img src="assets/img/Dream.jpg" alt="Grouping is an important step to make things simpler">
+  <img src="assets/img/smile.jpg" alt="Grouping is an important step to make things simpler">
 </div>
-
 
