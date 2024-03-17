@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# <span style="color: #0c505a;">Descobreix què és l'amor vertader</span>
+# <span style="color: #000000;">Descobreix què és l'amor vertader</span>
 <div>
 <p>
 Benvinguts a la nostra pàgina web plena de tendresa i romance. 
@@ -30,7 +30,7 @@ T'estimo més que mai!
 
 
 
-# <span style="color: #0c505a;">Qui som?</span>
+# <span style="color: #000000;">Qui som?</span>
 
 <div>
 <p>
