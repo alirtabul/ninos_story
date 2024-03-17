@@ -4,7 +4,7 @@ layout: home
 
 # <span style="color: #9C3587;">Descobreix què és l'amor vertader</span>
 
-<div style="text-align: justify;">
+<div>
 Benvinguts a la nostra pàgina web plena de tendresa i romance. 
 
 Aquí, immergiu-vos en una història d'amor encantadora entre dues persones destinades a estar juntes, l'Ali (Nino) i l'Eva (Nina). A través d'un estudi detallat de les seves converses de WhatsApp, us convidem a descobrir els secrets de la seva relació i a respondre a la pregunta que tothom es fa; qui estima més a l'altre? 
@@ -21,7 +21,7 @@ T'estimo més que mai.
 
 # <span style="color: #9C3587;">Qui som?</span>
 
-<div style="text-align: justify;">
+<div>
 Va somiar que després de la universitat, els seus amics li van presentar una noia que mai havia vist en la seva vida, amb el nom de Nicolet. Seguint la lògica dels somnis, després de saludar-la, li va prendre la mà i van sortir a passejar cap a casa seva. No obstant això, aquest passeig no va ser un passeig normal dins d'un somni; va experimentar una sensació extremadament realista que el va fer oblidar tot el que l'envoltava, centrant-se únicament en la felicitat que sentia amb la Nicolet. Van parlar de tot i van mantenir converses profundes sobre ells mateixos. Recorda cada paraula que van intercanviar i cada emoció que va experimentar. En arribar a casa, es va sentir molt abatut perquè se n'havia d'anar, així que va decidir acompanyar-la a casa seva, maximitzant així el temps amb ella. Durant aquest viatge, només recorda com la va fer riure molt i com, en un dels seus adorables riures, ella va mossegar-li el genoll mentre estaven asseguts al bus, una mossegada que va sentir com si fos real i dolça. Va ser en aquest moment que es va enamorar d'ella, tot dins d'un somni!
 
 La pitjor part estava a punt de començar: el despertar. Així que, quan es va despertar, es va sentir furios i decebut que tot el que havia viscut només existís dins la seva ment, malgrat haver-ho considerat 100% real.
