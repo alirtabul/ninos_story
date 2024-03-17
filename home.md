@@ -4,18 +4,23 @@ layout: home
 
 # <span style="color: #9C3587;">Descobreix què és l'amor vertader</span>
 
-<div>
+<p>
 Benvinguts a la nostra pàgina web plena de tendresa i romance. 
-<br>
+</p>
+<p>
 Aquí, immergiu-vos en una història d'amor encantadora entre dues persones destinades a estar juntes, l'Ali (Nino) i l'Eva (Nina). A través d'un estudi detallat de les seves converses de WhatsApp, us convidem a descobrir els secrets de la seva relació i a respondre a la pregunta que tothom es fa; qui estima més a l'altre? 
-<br>
+</p>
+<p>
 Prepareu-vos per una experiència emocionant i captivadora, on cada missatge revela un trosset més del seu amor inquebrantable. Us guiarem a través dels seus moments més dolços i íntims, explorant les emocions profundes i els vincles que els uneixen. Acompanyeu-nos en aquest viatge apassionant ple de moments tendres, rialles i, sobretot, amor sincer. Deixeu-vos endur per aquesta història romàntica que us farà creure en el poder de l'amor verdader. 
-<br>
+</p>
+<p>
 Feliços 25 anys, amor de la meva vida. 
-<br>
+</p>
+<p>
 T'estimo més que mai.
-</div>
-
+</p>
+<p>
+</p>
 
 
 
