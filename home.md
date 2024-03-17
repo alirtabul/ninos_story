@@ -23,7 +23,7 @@ T'estimo més que mai.
 </p>
 
 <div style="text-align: center;">
-  <img src="assets/img/Smile.jpg" alt="Grouping is an important step to make things simpler">
+  <img src="assets/img/smile.jpg" alt="Grouping is an important step to make things simpler">
 </div>
 
 
