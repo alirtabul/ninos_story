@@ -13,7 +13,7 @@ layout: estimo
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/003_Media.html" style="width: 100%; height: 600px; border: none;"></iframe>
+  <iframe src="assets/plots/007_Estimo_count.html" style="width: 100%; height: 600px; border: none;"></iframe>
 </div>
 
 
@@ -24,7 +24,7 @@ layout: estimo
 Curiosament, el primer "T'estimo" el va dir el Pau Gallinat en el seu  preciós poema dedicat a nosaltres titulat "El secret de l'amor":
 
 
-Una brisa tranquila, sota una pluja intensa. 
+Una brisa tranquila, sota una pluja intensa. <br>
 Brama la tempesta
 Sota la incertesa del viure.
  
