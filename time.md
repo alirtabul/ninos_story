@@ -31,7 +31,7 @@ layout: time
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/002_Messages_heatmap_month_year.html" style="width: 100%; height: 800px; border: none;"></iframe>
+  <iframe src="assets/plots/002_Messages_heatmap_month_year.html" style="width: 100%; height: 600px; border: none;"></iframe>
   <iframe src="assets/plots/002_Messages_bar_month.html" style="width: 100%; height: 400px; border: none;"></iframe>
   <iframe src="assets/plots/002_Messages_bar_year.html" style="width: 100%; height: 400px; border: none;"></iframe>
 </div>
