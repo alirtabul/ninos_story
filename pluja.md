@@ -37,5 +37,5 @@ layout: pluja
 </div>
 
 <div style="text-align: center;">
-  <img src="assets/img/word_cloud_Ali_2.,png" alt="Grouping is an important step to make things simpler">
+  <img src="assets/img/word_cloud_Ali_2.png" alt="Grouping is an important step to make things simpler">
 </div>
