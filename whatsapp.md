@@ -44,7 +44,7 @@ Si has especulat amb 1,255,172 paraules (sense comptar els innombrables audios d
 A més, s'han transmès en total 365,408 missatges, dels quals 145,255 provenen de l'Eva i 178,028 de l'Ali, tal com es mostra en el següent gràfic:
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/Messages_Words.html" width="800" height="400" frameborder="0" style="display: block; margin: 0 auto;"></iframe>
+  <iframe src="assets/plots/Messages_Words.html" style="width: 100%; height: 600px; border: none;"></iframe>
 </div>
 </p>
 <p>
