@@ -29,9 +29,12 @@ Contacta amb l'administrador d'aquesta pàgina per provar-ho!
 <div>
 <p>
 </p>
-
-T'has quedat amb ganes de descobrir com és conversar amb uns Ninos? T'asseguro que és una experiència totalment única, diferent a qualsevol altra que hagis tingut mai! Ara tens l'oportunitat d'experimentar-ho de manera gratuïta amb el chatbot Ninos, una altra Intel·ligència Artificial que pot generar text amb la mateixa vitalitat i tendresa que els caracteritzen a ells. No és tan avançat com un GPT-3, però aquesta plataforma et permetrà explorar una nova dimensió de la seva comunicació. No deixis passar aquesta oportunitat única d'immersió en un món de descoberta i espontaneïtat! 
-
+<p>
+T'has quedat amb ganes de descobrir com és conversar amb uns Ninos? T'asseguro que és una experiència totalment única, diferent a qualsevol altra que hagis tingut mai! 
+</p>
+<p>
+Ara tens l'oportunitat d'experimentar-ho de manera gratuïta amb el chatbot Ninos, una altra Intel·ligència Artificial que pot generar text amb la mateixa vitalitat i tendresa que els caracteritzen a ells. No és tan avançat com un GPT-3, però aquesta plataforma et permetrà explorar una nova dimensió de la seva comunicació. No deixis passar aquesta oportunitat única d'immersió en un món de descoberta i espontaneïtat! 
+</p>
 
 
 <div style="text-align: center;">
