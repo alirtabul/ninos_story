@@ -5,7 +5,10 @@ layout: estimo
 # <span style="color: #000000;">T'estimo</span>
 <div>
 <p>
-
+"T'estimo", també coneguda com "rimu", és una paraula de profunda resonància, carregada amb una energia emotiva inigualable. Quan pronuncies aquestes tres paraules, dones un tros de la teva ànima a l'afortunada persona que les rep, obrint les portes a un món de connexió íntima i amor incondicional. Ni l'Ali ni l'Eva van comprendre plenament el seu vertader significat fins que van començar a compartir les seves vides junts.
+</p>
+<p>
+A través de la següent gràfica de barres, es fa evident que l'Ali ha fet servir aquesta expressió amb més freqüència, deixant l'Eva amb un dèficit d'aproximadament 800 "T'estimo". Tot i això, cal defensar l'Eva, ja que s'ha de tenir en compte que no s'han analitzat els audios i les trucades, mitjans pels quals ella expressa de manera efusiva el seu amor. És possible, doncs, que en aquest context l'Eva iguali o superi el valor obtingut per l'Ali, demostrant la seva devoció amb intensitat i passió.
 </p>
 <p>
 </p>
@@ -21,8 +24,9 @@ layout: estimo
 
 
 # <span style="color: #000000;">Però, qui es va atrevir a expressar-ho abans?</span>
-Curiosament, el primer "T'estimo" el va dir el Pau Gallinat en el seu preciós poema dedicat a nosaltres titulat "El secret de l'amor":
-
+<div>
+Curiosament, el primer "T'estimo" el va dir el Pau Gallinat en el seu romàntic poema dedicat a nosaltres titulat "El secret de l'amor":
+</div>
 
 *Una brisa tranquila, sota una pluja intensa.* <br>
 *Brama la tempesta* <br>
@@ -131,3 +135,7 @@ I aquell mateix dia, a les 23:56:15, et vaig dir el meu primer t'estimo, just qu
 [26/11/18, 23:58:11] Ali: Que ningú podrà pararnos mai i que sempre estarem el un per el altre !<br>
 [26/11/18, 23:58:46] Ali: Bonanit Eva! Gracies a tú avui dormo com la persona més feliç del món!♥️<br>
 [27/11/18, 06:54:54] Eva 🌸: M'alegro moltissim🙈<br>
+
+<div>
+El 29/11/18 a les 22:59:53 hores, l'Eva va expressar el seu "T'estimo" després de un dolç "Bona nit ♥️". 
+<div>
