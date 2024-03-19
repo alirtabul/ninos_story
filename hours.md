@@ -54,10 +54,10 @@ En diverses ocasions, un dels dos no ha estat prou ràpid per comunicar a l'altr
 
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/006_Accuracy_of_Hours.html" style="width: 100%; height: 400px; border: none;"></iframe>
+  <iframe src="assets/plots/006_Accuracy_of_Hours.html" style="width: 100%; height: 600px; border: none;"></iframe>
 </div>
 
-És evident l'admirable precisió en la sincronia dels nostres pensaments, amb un impressionant 83% d'encerts per part del nino i un encara més sorprenent 84% per part de la nina. Però el que és més notable és aquella petita fracció que anomenem "superprecisió", que ronda el 2% per als dos. En aquests moments únics, no només hem coincidit en les hores i els minuts, sinó també en els segons, revelant una connexió excepcionalment profunda. Aquests instants, on la nostra comunicació s'entrellaça en una harmonia perfecta, podrien ben bé ser considerats com a prova irrefutable de l'equació de l'amor: (∂ + m) ψ = 0 ♥. 
+És evident l'admirable precisió en la sincronia dels nostres pensaments, amb un impressionant 83% d'encerts per part del nino i un encara més sorprenent 84% per part de la nina. Però el que és més notable és aquella petita fracció que anomenem "superprecisió", que ronda el 2% per als dos. En aquests moments únics, no només hem coincidit en les hores i els minuts, sinó també en els segons, revelant una connexió excepcionalment profunda. Aquests instants, on la nostra comunicació s'entrellaça en una harmonia perfecta, podrien ben bé ser considerats com a prova irrefutable de l'equació de l'amor: (∂ + m) · ψ = 0 ♥. 
 
 <p>
 </p>
