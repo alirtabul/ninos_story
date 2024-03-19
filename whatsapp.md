@@ -31,7 +31,7 @@ I això no és només una reflexió del passat, sinó també una mirada cap al f
 Comencem amb una pregunta que ens porta a reflexionar: Quantes paraules creieu que sumen les nostres converses?
 </p>
 <p>
-Si has especulat amb 1,255,172 paraules (sense comptar els innombrables audios de l'Eva), has encertat de ple! Sí, un total que equival a 3.3 "Don Quixots" o 1.6 "Bíblies", una xifra que resulta increïblement sorprenent! Si ens imaginéssim totes aquestes paraules unides en un document de Word, ocuparia un total de 13,000 pàgines, una magnitud que ha portat el meu ordinador al seu límit en diverses ocasions.
+Si has intuit 1,255,172 paraules (sense comptar els innombrables audios de l'Eva), has encertat de ple! Sí, un total que equival a 3.3 "Don Quixots" o 1.6 "Bíblies", una xifra que resulta increïblement sorprenent! Si ens imaginéssim totes aquestes paraules unides en un document de Word, ocuparia un total de 13,000 pàgines, una magnitud que ha portat el meu ordinador al seu límit en diverses ocasions.
 </p>
 <p>
 </p>
@@ -44,7 +44,7 @@ Si has especulat amb 1,255,172 paraules (sense comptar els innombrables audios d
 A més, s'han transmès en total 365,408 missatges, dels quals 145,255 provenen de l'Eva i 178,028 de l'Ali, tal com es mostra en el següent gràfic:
 <div style="text-align: center; margin: 0 auto;">
   <!-- Replace the following line with your actual graph code -->
-  <iframe src="assets/plots/Messages_Words.html" style="width: 100%; height: 600px; border: none;"></iframe>
+  <iframe src="assets/plots/Messages_Words.html" style="width: 100%; height: 400px; border: none;"></iframe>
 </div>
 </p>
 <p>
