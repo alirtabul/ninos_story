@@ -5,7 +5,7 @@ layout: home
 # <span style="color: #000000;">Descobreix què és l'amor vertader</span>
 <div>
 <p>
-Benvinguts a la nostra pàgina web plena de tendresa i romance. 
+Benvinguts a aquesta pàgina web plena de tendresa i romance. 
 </p>
 <p>
 Aquí, immergiu-vos en una història d'amor encantadora entre dues persones destinades a estar juntes, l'Ali (Nino) i l'Eva (Nina). A través d'un estudi detallat de les seves converses de WhatsApp, us convidem a descobrir els secrets de la seva relació i a respondre a la pregunta que tothom es fa; qui estima més a l'altre? 
