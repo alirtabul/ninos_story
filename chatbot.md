@@ -6,7 +6,7 @@ layout: chatbot
 <div>
 <p>
 
-En la intrincada trama de la seva relació, malgrat la sorprenent compatibilitat que mostren, també sorgeixen les inevitables diferències. Conscients d'aquesta realitat, s'ha decidit explorar noves dimensions de la seva connexió mitjançant la creació d'una Intel·ligència Artificial. Aquesta meravellosa eina és capaç discernir amb una precisió del 70% si un missatge prové de l'Ali o de l'Eva, encara que sigui enmig d'un oceà de paraules. Mitjançant algorismes sofisticats i una comprensió profundament enraonada del seu estil de comunicació, aquesta Intel·ligència Artificial els permet explorar els detalls més subtils de les seves interaccions, revelant els patrons de la seva relació amb una claredat impressionant.
+En la intrincada trama de la nostra relació, malgrat la sorprenent compatibilitat que mostrem, també sorgeixen les inevitables diferències. Conscients d'aquesta realitat, s'ha decidit explorar noves dimensions de la nostra connexió mitjançant la creació d'una Intel·ligència Artificial. Aquesta meravellosa eina és capaç discernir amb una precisió del 70% si un missatge prové de l'Ali o de l'Eva, encara que sigui enmig d'un oceà de paraules. Mitjançant algorismes sofisticats i una comprensió profundament enraonada del seu estil de comunicació, aquesta Intel·ligència Artificial us permet explorar els detalls més subtils de les nostres interaccions, revelant els patrons de la nostra relació amb una claredat impressionant.
 
 <div style="text-align: center;">
   <img src="assets/img/Ninos AI.jpg" alt="Grouping is an important step to make things simpler">
