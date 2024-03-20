@@ -9,7 +9,7 @@ layout: hours
 Des de l'inici del 2020, aquesta tendre relació va incorporar una bonica costum: informar sobre les hores d'or.  
 </p>
 <p>
-Conta la llegenda, narrada des dels temps immemorials, que si per pur atzar els teus ulls topen amb el rellotge, i les seves agulles convergeixen en un ballet místic, alineant-se amb hores, minuts i fins i tot segons, aquesta conjunció celest revela que algú, en algun lloc de l'espai infinit, envolta el teu ésser amb pensaments ardents i profunds, invocant-te des de l'altresor del seu cor.
+Conta la llegenda, narrada des dels temps immemorials, que si per pur atzar els teus ulls topen amb el rellotge, i les seves agulles convergeixen en un ballet místic, alineant-se amb hores, minuts i fins i tot segons, aquesta conjunció celestial revela que algú, en algun lloc de l'espai infinit, envolta el teu ésser amb pensaments ardents i profunds, invocant-te des de l'altresor del seu cor.
 </p>
 <p>
 És per això que és interessant analitzar quines són les hores en què un ha pensat més en l'altre. Això es pot observar en els subseqüents gràfics de calor, on la diagonal marca les hores d'or.  
