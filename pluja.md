@@ -8,7 +8,7 @@ layout: pluja
 Ja hem constatat que l'Ali envia més missatges que l'Eva, però encara no podem concloure que sigui més expressiu que ella; ella amaga una arma secreta: els temibles audios.
 </p>
 <p>
-L'Ali els té por extrema, ja que representen minuts interminables on les paraules flueixen sense pausa. Ella és capaç de dedicar fins a 7 minuts d'audio per explicar com un gat mimós li fa companyia mentre sopava a la universitat, o què tan bonica troba l'arquitectura de Barcelona. I si no responc a un d'ells, sense dubte, rebre una reprimenda, marcant-me amb un punt els audios sense resposta.
+L'Ali els té por extrema, ja que representen minuts interminables on les paraules flueixen sense pausa. Ella és capaç de dedicar fins a 7 minuts d'audio per explicar com un gat mimós li fa companyia mentre s'intentava relaxar en els seus episodis de migranya a la universitat, o què tan bonica troba l'arquitectura de Barcelona. I si no responc a un d'ells, sense dubte, rebre una reprimenda, marcant-me amb un punt els audios sense resposta.
 </p>
 <p>
 L'Eva envia de mitjana 4,5 audios més que l'Ali, sort que Whatsapp va incloure l'opció de reproducció a doble velocitat...
