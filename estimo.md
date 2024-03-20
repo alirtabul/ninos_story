@@ -5,7 +5,7 @@ layout: estimo
 # <span style="color: #000000;">T'estimo</span>
 <div>
 <p>
-"T'estimo", també coneguda com "rimu", és una paraula de profunda resonància, carregada amb una energia emotiva inigualable. Quan pronuncies aquestes tres paraules, dones un tros de la teva ànima a l'afortunada persona que les rep, obrint les portes a un món de connexió íntima i amor incondicional. Ni l'Ali ni l'Eva van comprendre plenament el seu vertader significat fins que van començar a compartir les seves vides junts.
+"T'estimo", també coneguda com "rimu", és una paraula de profunda resonància, carregada amb una energia emotiva inigualable. Quan pronuncies aquestes paraules, dones un tros de la teva ànima a l'afortunada persona que les rep, obrint les portes a un món de connexió íntima i amor incondicional. Ni l'Ali ni l'Eva van comprendre plenament el seu vertader significat fins que van començar a compartir les seves vides junts.
 </p>
 <p>
 A través de la següent gràfica de barres, es fa evident que l'Ali ha fet servir aquesta expressió amb més freqüència, deixant l'Eva amb un dèficit d'aproximadament 800 "T'estimo". Tot i això, cal defensar l'Eva, ja que s'ha de tenir en compte que no s'han analitzat els audios i les trucades, mitjans pels quals ella expressa de manera efusiva el seu amor. És possible, doncs, que en aquest context l'Eva iguali o superi el valor obtingut per l'Ali, demostrant la seva devoció amb intensitat i passió.
