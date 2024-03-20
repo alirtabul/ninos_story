@@ -5,7 +5,7 @@ layout: time
 # <span style="color: #000000;">Una vista al passat</span>
 <div>
 <p>
-A continuació, analitzem els "trends" i els moments clau de la nostra relació. Per fer-ho, hem de fer una revisió del passat per entendre com ha evolucionat la nostra relació.
+A continuació, analitzem els "trends" i els moments clau de la nostra relació. Per fer-ho, hem de fer una revisió del passat per entendre com ha evolucionat.
 </p>
 <p>
 <div style="text-align: center; margin: 0 auto;">
